@@ -153,22 +153,161 @@
     }
   ],
   "configuration": {
-    "tracking_enabled": true,
-    "learning_progress_enabled": true,
-    "project_recommendations_enabled": true,
-    "assessment_feedback_enabled": true,
-    "smart_navigation_enabled": true,
-    "skill_coverage_enabled": true,
-    "pace_monitoring_enabled": true,
+    "general": {
+      "tracking_enabled": true,
+      "learning_progress_enabled": true,
+      "project_recommendations_enabled": true,
+      "assessment_feedback_enabled": true,
+      "smart_navigation_enabled": true,
+      "skill_coverage_enabled": true,
+      "pace_monitoring_enabled": true,
+      "verbose_mode": false,
+      "debug_mode": false
+    },
     "storage": {
       "type": "session",
-      "persistence": "optional"
+      "persistence": "optional",
+      "max_session_duration_hours": 24,
+      "cache_external_resources": true,
+      "cache_ttl_hours": 24
     },
     "notifications": {
       "milestone_celebrations": true,
       "skill_recommendations": true,
       "project_suggestions": true,
-      "learning_pace_alerts": true
+      "learning_pace_alerts": true,
+      "prerequisite_warnings": true,
+      "completion_encouragement": true,
+      "frequency_limit": "once_per_session"
+    },
+    "learning_pace": {
+      "track_completion_time": true,
+      "suggest_faster_pace_threshold_weeks": 2,
+      "suggest_slower_pace_threshold_weeks": 8,
+      "ideal_weekly_hours": 15,
+      "flex_range_hours": 5
+    },
+    "progress_tracking": {
+      "track_agent_invocations": true,
+      "track_skill_completions": true,
+      "track_command_usage": true,
+      "track_session_duration": true,
+      "track_project_progress": true,
+      "milestone_thresholds": [10, 25, 50, 75, 90, 100]
+    },
+    "recommendations": {
+      "max_suggestions": 3,
+      "personalization_level": "high",
+      "consider_learning_history": true,
+      "consider_learning_pace": true,
+      "suggest_related_topics": true,
+      "suggest_specialization_paths": true
+    },
+    "validation": {
+      "check_prerequisites": true,
+      "check_learning_level": true,
+      "validate_time_estimates": true,
+      "warn_missing_skills": true,
+      "allow_skip_prerequisites": true
+    },
+    "advanced": {
+      "enable_cross_agent_linking": true,
+      "enable_ai_routing": true,
+      "enable_pattern_detection": true,
+      "enable_predictive_recommendations": true,
+      "learning_analytics": true
+    }
+  },
+  "hook_behaviors": {
+    "concurrent_execution": false,
+    "error_handling": "graceful_degradation",
+    "timeout_seconds": 5,
+    "retry_failed_hooks": true,
+    "max_retries": 2,
+    "log_all_triggers": false,
+    "log_hook_execution": true
+  },
+  "integrations": {
+    "external_resources": {
+      "enabled": true,
+      "verify_links": true,
+      "timeout_seconds": 10,
+      "categories": ["documentation", "courses", "books", "tutorials", "communities"]
+    },
+    "analytics": {
+      "enabled": false,
+      "collect_usage_stats": false,
+      "endpoint": null
+    },
+    "notifications": {
+      "enabled": true,
+      "channels": ["console"],
+      "severity_levels": ["info", "success", "warning"]
+    }
+  },
+  "hook_configurations": {
+    "learning-progress-tracker": {
+      "enabled": true,
+      "log_level": "info",
+      "celebration_on_milestones": true,
+      "daily_summary": true,
+      "weekly_report": true
+    },
+    "skill-dependency-validator": {
+      "enabled": true,
+      "strict_mode": false,
+      "allow_exceptions": true,
+      "warn_on_skip": true
+    },
+    "project-recommendation-engine": {
+      "enabled": true,
+      "difficulty_matching": true,
+      "technology_matching": true,
+      "max_recommendations": 5,
+      "personalization": "high"
+    },
+    "assessment-feedback-generator": {
+      "enabled": true,
+      "detailed_analysis": true,
+      "include_resources": true,
+      "include_timeline": true,
+      "include_next_steps": true
+    },
+    "agent-context-loader": {
+      "enabled": true,
+      "fuzzy_matching": true,
+      "confidence_threshold": 0.7,
+      "fallback_to_manual": true
+    },
+    "command-navigation-enhancer": {
+      "enabled": true,
+      "smart_suggestions": true,
+      "show_related_commands": true,
+      "learning_based": true
+    },
+    "skill-coverage-tracker": {
+      "enabled": true,
+      "track_depth": true,
+      "session_summary": true,
+      "career_mapping": true
+    },
+    "learning-pace-monitor": {
+      "enabled": true,
+      "adaptive_recommendations": true,
+      "burnout_detection": true,
+      "motivation_tracking": true
+    },
+    "role-focus-detector": {
+      "enabled": true,
+      "track_interests": true,
+      "suggest_specializations": true,
+      "career_path_analysis": true
+    },
+    "resource-link-provider": {
+      "enabled": true,
+      "validate_on_display": true,
+      "update_frequency_days": 7,
+      "fallback_resources": true
     }
   }
 }
