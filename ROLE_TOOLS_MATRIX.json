@@ -1,0 +1,498 @@
+{
+  "roles": {
+    "devops_engineer": {
+      "role_name": "DevOps Engineer",
+      "description": "Bridges development and operations, manages CI/CD, maintains automation",
+      "experience_levels": {
+        "junior": "0-2 years",
+        "mid": "2-5 years",
+        "senior": "5+ years"
+      },
+      "tools": {
+        "containerization": {
+          "primary": ["Docker", "Podman"],
+          "registries": ["Docker Hub", "AWS ECR", "Google GCR", "Azure ACR", "Harbor"],
+          "level": "fundamental"
+        },
+        "orchestration": {
+          "primary": ["Kubernetes"],
+          "alternatives": ["Docker Swarm", "Nomad"],
+          "package_managers": ["Helm", "Kustomize"],
+          "level": "intermediate"
+        },
+        "infrastructure_as_code": {
+          "provisioning": ["Terraform", "Pulumi"],
+          "configuration": ["Ansible", "Chef", "Puppet"],
+          "image_building": ["Packer"],
+          "level": "intermediate"
+        },
+        "ci_cd": {
+          "platforms": ["Jenkins", "GitLab CI", "GitHub Actions", "CircleCI", "Travis CI"],
+          "deployment": ["Spinnaker", "ArgoCD", "Flux"],
+          "level": "intermediate"
+        },
+        "monitoring": {
+          "metrics": ["Prometheus", "Grafana", "Datadog"],
+          "logs": ["ELK Stack", "Graylog", "Splunk"],
+          "apm": ["Jaeger", "Zipkin"],
+          "level": "intermediate"
+        },
+        "cloud_platforms": {
+          "aws": ["EC2", "ECS", "EKS", "RDS", "S3", "CloudFormation"],
+          "gcp": ["Compute Engine", "GKE", "Cloud Run"],
+          "azure": ["VMs", "AKS", "App Service"],
+          "level": "intermediate"
+        },
+        "version_control": {
+          "primary": ["Git", "GitHub", "GitLab"],
+          "level": "fundamental"
+        }
+      },
+      "cloud_platforms": {
+        "aws": {
+          "compute": ["EC2", "Lambda", "Fargate", "ECS", "EKS"],
+          "storage": ["S3", "EBS", "EFS"],
+          "networking": ["VPC", "ALB", "NLB"],
+          "security": ["IAM", "KMS", "Secrets Manager"],
+          "deployment": ["CloudFormation", "CodePipeline", "CodeDeploy"]
+        },
+        "gcp": {
+          "compute": ["Compute Engine", "Cloud Run", "GKE", "Cloud Functions"],
+          "storage": ["Cloud Storage", "Persistent Disk"],
+          "networking": ["VPC", "Cloud Load Balancing"],
+          "security": ["Cloud IAM", "Cloud KMS", "Secret Manager"]
+        },
+        "azure": {
+          "compute": ["Virtual Machines", "AKS", "App Service", "Functions"],
+          "storage": ["Blob Storage", "Managed Disks"],
+          "networking": ["Virtual Networks", "Application Gateway"],
+          "security": ["Azure AD", "Key Vault", "Azure Policy"]
+        }
+      },
+      "security_practices": [
+        "Container image scanning",
+        "Infrastructure code scanning",
+        "Secret management",
+        "RBAC implementation",
+        "Network policies",
+        "Secrets rotation",
+        "Vulnerability scanning"
+      ],
+      "automation_skills": [
+        "CI/CD pipeline design",
+        "Infrastructure provisioning",
+        "Configuration management",
+        "Deployment automation",
+        "Self-healing systems",
+        "GitOps workflows",
+        "Incident response automation"
+      ]
+    },
+    "infrastructure_engineer": {
+      "role_name": "Infrastructure Engineer",
+      "description": "Designs and builds infrastructure, manages resources, ensures reliability",
+      "experience_levels": {
+        "junior": "0-2 years",
+        "mid": "2-5 years",
+        "senior": "5+ years"
+      },
+      "tools": {
+        "linux_admin": {
+          "distributions": ["Ubuntu", "CentOS", "RHEL", "Debian"],
+          "tools": ["bash", "systemd", "systemctl", "journalctl"],
+          "level": "fundamental"
+        },
+        "networking": {
+          "tools": ["tcpdump", "netstat", "ss", "traceroute", "dig", "nslookup"],
+          "firewalls": ["iptables", "firewalld", "ufw"],
+          "load_balancing": ["HAProxy", "NGINX", "Keepalived"],
+          "dns": ["BIND", "dnsmasq"],
+          "level": "fundamental"
+        },
+        "virtualization": {
+          "platforms": ["KVM", "VMware", "Hyper-V", "Xen"],
+          "level": "intermediate"
+        },
+        "cloud_infrastructure": {
+          "aws": ["CloudFormation", "Terraform", "Systems Manager"],
+          "gcp": ["Deployment Manager", "Terraform"],
+          "azure": ["ARM Templates", "Terraform"],
+          "level": "intermediate"
+        },
+        "infrastructure_as_code": {
+          "provisioning": ["Terraform", "CloudFormation", "ARM Templates"],
+          "configuration": ["Ansible", "Chef", "Puppet", "SaltStack"],
+          "image_building": ["Packer"],
+          "level": "intermediate"
+        },
+        "monitoring": {
+          "metrics": ["Prometheus", "Grafana", "Datadog", "New Relic"],
+          "logs": ["ELK Stack", "Graylog", "Splunk"],
+          "distributed_tracing": ["Jaeger", "Zipkin"],
+          "level": "intermediate"
+        },
+        "storage": {
+          "block_storage": ["LVM", "RAID", "iSCSI"],
+          "distributed": ["Ceph", "Gluster"],
+          "tools": ["fdisk", "parted", "lvm"],
+          "level": "intermediate"
+        }
+      },
+      "cloud_platforms": {
+        "aws": {
+          "compute": ["EC2", "Lambda", "Fargate"],
+          "storage": ["S3", "EBS", "EFS", "Glacier"],
+          "database": ["RDS", "DynamoDB", "Redshift"],
+          "networking": ["VPC", "Route 53", "CloudFront", "Direct Connect"],
+          "security": ["IAM", "KMS", "CloudTrail", "Config"],
+          "management": ["CloudFormation", "CloudWatch", "Systems Manager"]
+        },
+        "gcp": {
+          "compute": ["Compute Engine", "App Engine", "GKE"],
+          "storage": ["Cloud Storage", "Persistent Disk", "Filestore"],
+          "database": ["Cloud SQL", "Firestore", "BigQuery"],
+          "networking": ["VPC", "Cloud Load Balancing", "Cloud CDN"],
+          "security": ["Cloud IAM", "Cloud KMS", "Cloud Armor"]
+        },
+        "azure": {
+          "compute": ["Virtual Machines", "App Service", "AKS"],
+          "storage": ["Blob Storage", "File Shares", "Managed Disks"],
+          "database": ["Azure SQL", "Cosmos DB", "Synapse"],
+          "networking": ["Virtual Networks", "ExpressRoute", "Traffic Manager"],
+          "security": ["Azure AD", "Key Vault", "Azure Policy"]
+        }
+      },
+      "security_practices": [
+        "Linux hardening",
+        "Network segmentation",
+        "Encryption at rest",
+        "Encryption in transit",
+        "IAM policy design",
+        "Compliance frameworks",
+        "Audit logging",
+        "Access control"
+      ],
+      "automation_skills": [
+        "Infrastructure provisioning",
+        "Configuration management",
+        "Image building and deployment",
+        "Backup automation",
+        "Disaster recovery",
+        "Cost optimization automation",
+        "Performance tuning"
+      ]
+    },
+    "sre": {
+      "role_name": "Site Reliability Engineer",
+      "description": "Applies software engineering to operations, focuses on reliability",
+      "experience_levels": {
+        "junior": "0-2 years",
+        "mid": "2-5 years",
+        "senior": "5+ years"
+      },
+      "tools": {
+        "monitoring": {
+          "metrics": ["Prometheus", "Grafana", "Datadog"],
+          "logs": ["ELK Stack", "Graylog", "Splunk"],
+          "tracing": ["Jaeger", "Zipkin", "AWS X-Ray"],
+          "apm": ["New Relic", "Datadog", "Dynatrace"],
+          "level": "fundamental"
+        },
+        "incident_management": {
+          "tools": ["PagerDuty", "Opsgenie", "Splunk On-Call"],
+          "communication": ["Slack", "Teams"],
+          "level": "fundamental"
+        },
+        "chaos_engineering": {
+          "tools": ["Chaos Monkey", "Gremlin", "Litmus Chaos"],
+          "load_testing": ["Locust", "JMeter", "k6"],
+          "level": "advanced"
+        },
+        "infrastructure_as_code": {
+          "provisioning": ["Terraform", "Pulumi"],
+          "configuration": ["Ansible"],
+          "level": "intermediate"
+        },
+        "container_orchestration": {
+          "primary": ["Kubernetes"],
+          "tools": ["Helm", "Kustomize"],
+          "level": "intermediate"
+        },
+        "deployment": {
+          "gitops": ["ArgoCD", "Flux"],
+          "progressive": ["Spinnaker", "Flagger"],
+          "level": "intermediate"
+        }
+      },
+      "cloud_platforms": {
+        "aws": {
+          "compute": ["Lambda", "ECS", "EKS"],
+          "monitoring": ["CloudWatch", "X-Ray"],
+          "management": ["Systems Manager", "Auto Scaling"],
+          "security": ["IAM", "GuardDuty", "Inspector"]
+        },
+        "gcp": {
+          "compute": ["Cloud Run", "GKE"],
+          "monitoring": ["Cloud Monitoring", "Cloud Trace"],
+          "management": ["Cloud Deployment Manager"],
+          "security": ["Cloud Security Command Center"]
+        },
+        "azure": {
+          "compute": ["AKS", "App Service"],
+          "monitoring": ["Azure Monitor", "Application Insights"],
+          "management": ["Azure Automation"],
+          "security": ["Azure Security Center"]
+        }
+      },
+      "security_practices": [
+        "Security scanning",
+        "Compliance automation",
+        "Vulnerability management",
+        "Access control automation",
+        "Incident response",
+        "Threat detection",
+        "Post-incident analysis"
+      ],
+      "automation_skills": [
+        "Self-healing systems",
+        "Automated remediation",
+        "Monitoring automation",
+        "Alert tuning",
+        "Runbook automation",
+        "On-call automation",
+        "Cost optimization"
+      ]
+    },
+    "cloud_architect": {
+      "role_name": "Cloud Architect",
+      "description": "Designs cloud solutions, makes architectural decisions",
+      "experience_levels": {
+        "junior": "2-5 years",
+        "mid": "5-10 years",
+        "senior": "10+ years"
+      },
+      "tools": {
+        "infrastructure_as_code": {
+          "provisioning": ["Terraform", "Pulumi", "CloudFormation"],
+          "policy": ["Sentinel", "OPA", "Kyverno"],
+          "level": "intermediate"
+        },
+        "container_platforms": {
+          "kubernetes": ["Kubernetes", "Helm", "Kustomize"],
+          "serverless": ["AWS Lambda", "Google Cloud Functions", "Azure Functions"],
+          "level": "intermediate"
+        },
+        "monitoring": {
+          "metrics": ["Prometheus", "Grafana", "Datadog"],
+          "logs": ["ELK", "Splunk", "Datadog"],
+          "apm": ["Datadog", "New Relic", "Dynatrace"],
+          "level": "intermediate"
+        },
+        "security": {
+          "scanning": ["Trivy", "Snyk", "SonarQube"],
+          "secrets": ["Vault", "AWS Secrets Manager"],
+          "level": "intermediate"
+        }
+      },
+      "cloud_platforms": {
+        "aws": {
+          "core_services": ["EC2", "Lambda", "S3", "RDS", "DynamoDB", "VPC"],
+          "networking": ["ALB", "NLB", "CloudFront", "Route 53", "Direct Connect"],
+          "security": ["IAM", "KMS", "GuardDuty", "Security Hub"],
+          "management": ["CloudFormation", "CloudWatch", "Cost Explorer"],
+          "maturity": "primary"
+        },
+        "gcp": {
+          "core_services": ["Compute Engine", "Cloud Run", "Cloud Storage", "Cloud SQL"],
+          "networking": ["Cloud Load Balancing", "Cloud CDN", "VPC"],
+          "security": ["Cloud IAM", "Cloud KMS", "Cloud Armor"],
+          "management": ["Cloud Monitoring", "Cloud Logging", "Cost Management"],
+          "maturity": "secondary"
+        },
+        "azure": {
+          "core_services": ["Virtual Machines", "App Service", "Blob Storage", "Azure SQL"],
+          "networking": ["Application Gateway", "ExpressRoute", "Traffic Manager"],
+          "security": ["Azure AD", "Key Vault", "Azure Policy"],
+          "management": ["Azure Monitor", "Cost Management", "Blueprints"],
+          "maturity": "secondary"
+        }
+      },
+      "security_practices": [
+        "Identity and access management",
+        "Data protection and encryption",
+        "Network security design",
+        "Compliance architecture",
+        "Zero-trust architecture",
+        "Incident response planning",
+        "Disaster recovery design"
+      ],
+      "automation_skills": [
+        "Infrastructure as code design",
+        "Cost optimization automation",
+        "Scaling automation",
+        "Disaster recovery automation",
+        "Deployment automation",
+        "Compliance automation",
+        "Performance optimization"
+      ]
+    },
+    "security_engineer": {
+      "role_name": "Security Engineer",
+      "description": "Protects infrastructure and applications, implements security controls",
+      "experience_levels": {
+        "junior": "0-2 years",
+        "mid": "2-5 years",
+        "senior": "5+ years"
+      },
+      "tools": {
+        "scanning": {
+          "sast": ["SonarQube", "Checkmarx", "Veracode"],
+          "dast": ["OWASP ZAP", "Burp Suite"],
+          "container": ["Trivy", "Clair", "Anchore"],
+          "infrastructure": ["tfsec", "Checkov"],
+          "dependencies": ["Snyk", "Dependabot"],
+          "level": "fundamental"
+        },
+        "secrets_management": {
+          "tools": ["HashiCorp Vault", "AWS Secrets Manager", "Azure Key Vault"],
+          "scanning": ["git-secrets", "TruffleHog", "GitGuardian"],
+          "level": "fundamental"
+        },
+        "container_security": {
+          "scanning": ["Trivy", "Falco"],
+          "registry": ["Harbor", "Clair"],
+          "runtime": ["Falco", "Sysdig"],
+          "level": "intermediate"
+        },
+        "kubernetes_security": {
+          "policy": ["OPA/Gatekeeper", "Kyverno"],
+          "scanning": ["kubesec", "Polaris"],
+          "secrets": ["Sealed Secrets", "External Secrets"],
+          "level": "intermediate"
+        },
+        "network_security": {
+          "firewalls": ["AWS WAF", "Cloud Armor", "Azure WAF"],
+          "ids_ips": ["Snort", "Suricata"],
+          "vpn": ["WireGuard", "Pritunl"],
+          "level": "intermediate"
+        },
+        "monitoring": {
+          "siem": ["Splunk", "ELK", "Graylog"],
+          "threat": ["GuardDuty", "Security Center"],
+          "scanning": ["AWS Config", "Azure Policy"],
+          "level": "intermediate"
+        }
+      },
+      "cloud_platforms": {
+        "aws": {
+          "identity": ["IAM", "Cognito", "Directory Service"],
+          "encryption": ["KMS", "Secrets Manager", "Macie"],
+          "network": ["VPC", "Security Groups", "Network ACLs", "WAF"],
+          "monitoring": ["CloudTrail", "GuardDuty", "Security Hub"],
+          "compliance": ["Config", "Inspector", "Trusted Advisor"]
+        },
+        "gcp": {
+          "identity": ["Cloud IAM", "Cloud Identity"],
+          "encryption": ["Cloud KMS", "Secret Manager"],
+          "network": ["VPC", "Cloud Armor"],
+          "monitoring": ["Cloud Audit Logs", "Security Command Center"],
+          "compliance": ["Cloud Asset Inventory", "Policy Intelligence"]
+        },
+        "azure": {
+          "identity": ["Azure AD", "RBAC"],
+          "encryption": ["Key Vault", "Managed Disks Encryption"],
+          "network": ["Network Security Groups", "Azure Firewall", "WAF"],
+          "monitoring": ["Azure Monitor", "Security Center", "Defender"],
+          "compliance": ["Azure Policy", "Blueprints", "Compliance Manager"]
+        }
+      },
+      "security_practices": [
+        "SAST/DAST scanning",
+        "Container image scanning",
+        "Infrastructure code scanning",
+        "Secret management",
+        "Vulnerability management",
+        "Patch management",
+        "Access control",
+        "Encryption implementation",
+        "Compliance monitoring",
+        "Incident response"
+      ],
+      "automation_skills": [
+        "Security scanning automation",
+        "Vulnerability remediation",
+        "Compliance automation",
+        "Secret rotation",
+        "Access provisioning",
+        "Threat detection automation",
+        "Incident response automation"
+      ]
+    }
+  },
+  "tools_by_category": {
+    "containerization": {
+      "container_engines": ["Docker", "Podman", "CRI-O", "Containerd"],
+      "container_registries": ["Docker Hub", "AWS ECR", "Google GCR", "Azure ACR", "Harbor", "Quay.io"],
+      "image_scanning": ["Trivy", "Clair", "Anchore", "Snyk"],
+      "image_building": ["Docker", "Podman", "Buildkit", "Kaniko"]
+    },
+    "orchestration": {
+      "kubernetes": ["Kubernetes", "K3s", "Kind", "Minikube"],
+      "alternatives": ["Docker Swarm", "Nomad"],
+      "package_managers": ["Helm", "Kustomize", "Carvel"],
+      "deployment": ["ArgoCD", "Flux", "Spinnaker", "Harness"]
+    },
+    "infrastructure_as_code": {
+      "provisioning": ["Terraform", "Pulumi", "CDK", "CloudFormation", "ARM Templates"],
+      "configuration": ["Ansible", "Chef", "Puppet", "SaltStack"],
+      "image_building": ["Packer", "Vagrant"],
+      "policy": ["Sentinel", "OPA", "Kyverno", "Kubewarden"]
+    },
+    "ci_cd": {
+      "platforms": ["Jenkins", "GitLab CI", "GitHub Actions", "CircleCI", "Travis CI", "Drone", "Tekton"],
+      "artifact_management": ["Artifactory", "Nexus", "Docker registries"],
+      "deployment": ["ArgoCD", "Flux", "Spinnaker"]
+    },
+    "monitoring": {
+      "metrics": ["Prometheus", "Grafana", "Datadog", "New Relic", "CloudWatch", "Azure Monitor"],
+      "logs": ["ELK Stack", "Graylog", "Splunk", "Loki", "Datadog"],
+      "tracing": ["Jaeger", "Zipkin", "AWS X-Ray", "Datadog"],
+      "apm": ["New Relic", "Datadog", "Dynatrace", "AppDynamics"]
+    },
+    "security": {
+      "scanning": ["Trivy", "Clair", "Snyk", "SonarQube", "Checkmarx"],
+      "secrets": ["Vault", "AWS Secrets Manager", "Azure Key Vault", "Sealed Secrets"],
+      "runtime": ["Falco", "Sysdig", "AppArmor", "SELinux"],
+      "network": ["AWS WAF", "Cloud Armor", "Cloudflare WAF", "Snort", "Suricata"]
+    },
+    "cloud_platforms": {
+      "compute": ["AWS EC2/Lambda", "Google Compute Engine/Cloud Run", "Azure VMs/Functions"],
+      "storage": ["AWS S3", "Google Cloud Storage", "Azure Blob Storage"],
+      "database": ["AWS RDS/DynamoDB", "Google Cloud SQL/Firestore", "Azure SQL/Cosmos DB"],
+      "networking": ["AWS VPC/ALB", "Google VPC/Load Balancer", "Azure VNet/App Gateway"]
+    }
+  },
+  "cloud_provider_comparison": {
+    "aws": {
+      "market_share": "Primary",
+      "maturity": "Most mature",
+      "services_count": "200+",
+      "strengths": ["Largest service portfolio", "Best documentation", "Largest community"],
+      "weaknesses": ["Complex pricing", "Steep learning curve"]
+    },
+    "gcp": {
+      "market_share": "Secondary",
+      "maturity": "Mature",
+      "services_count": "100+",
+      "strengths": ["Data analytics", "ML integration", "Simplified pricing"],
+      "weaknesses": ["Smaller service portfolio", "Smaller community"]
+    },
+    "azure": {
+      "market_share": "Secondary",
+      "maturity": "Mature",
+      "services_count": "200+",
+      "strengths": ["Enterprise integration", "Hybrid cloud", "Microsoft ecosystem"],
+      "weaknesses": ["Learning curve", "Less community content"]
+    }
+  }
+}

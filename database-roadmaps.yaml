@@ -1,0 +1,412 @@
+---
+framework:
+  title: "Database and Data Management Roadmaps Framework"
+  version: "1.0"
+  created: "2025-11-18"
+  description: "Comprehensive career roadmaps for database and data management professionals"
+
+roles:
+  postgresql_dba:
+    title: "PostgreSQL DBA"
+    level: "expert"
+    overview: "Expert database administrator specializing in PostgreSQL architecture, optimization, and operations"
+    competencies:
+      database_systems:
+        proficiency: "expert"
+        skills:
+          - "PostgreSQL architecture (MVCC, WAL, buffer management)"
+          - "Physical and logical storage structures"
+          - "Process architecture (postmaster, backend processes)"
+          - "Memory management and configuration tuning"
+          - "Partitioning strategies (range, list, hash)"
+          - "Replication models (streaming, logical)"
+          - "Backup and recovery strategies"
+          - "Point-in-time recovery (PITR)"
+          
+      query_optimization:
+        proficiency: "expert"
+        skills:
+          - "EXPLAIN and EXPLAIN ANALYZE usage"
+          - "Query plan interpretation"
+          - "Index scan vs sequential scan analysis"
+          - "B-tree, Hash, GiST, GIN, BRIN indices"
+          - "Partial and expression-based indices"
+          - "Index maintenance and bloat management"
+          - "Query rewriting techniques"
+          - "Materialized views optimization"
+          
+      data_modeling:
+        proficiency: "advanced"
+        skills:
+          - "Normalization forms (1NF to BCNF)"
+          - "Denormalization strategies for performance"
+          - "Primary and foreign key design"
+          - "ACID properties implementation"
+          - "JSON and JSONB handling"
+          - "Array and range types"
+          - "Custom data type creation"
+          
+      management_skills:
+        proficiency: "advanced"
+        skills:
+          - "pg_stat views and statistics"
+          - "VACUUM and ANALYZE procedures"
+          - "Master-replica setup and streaming replication"
+          - "Full and incremental backups"
+          - "WAL archiving and recovery"
+          - "Monitoring and alerting"
+          - "Autovacuum configuration"
+
+    learning_path:
+      - "PostgreSQL fundamentals and architecture"
+      - "Query performance tuning"
+      - "Replication and high availability"
+      - "Backup, recovery, and disaster recovery"
+      - "Monitoring and optimization"
+
+  mongodb:
+    title: "MongoDB"
+    level: "expert"
+    overview: "Expert NoSQL database specialist with deep knowledge of MongoDB document model"
+    competencies:
+      database_systems:
+        proficiency: "expert"
+        skills:
+          - "Document-oriented storage model"
+          - "BSON format and data representation"
+          - "MongoDB cluster architecture"
+          - "Single-node, replica sets, and sharded cluster deployment"
+          - "Embedded vs referenced documents"
+          - "Transactions and ACID compliance"
+          - "Change streams and real-time data"
+          - "Time-series collections"
+          
+      query_optimization:
+        proficiency: "expert"
+        skills:
+          - "Query methods and operators"
+          - "Aggregation framework"
+          - "Single-field and compound indices"
+          - "Text search and geospatial indices"
+          - "TTL and partial indices"
+          - "Aggregation pipeline optimization"
+          - "Projection and filtering efficiency"
+          - "Query selectivity analysis"
+          
+      data_modeling:
+        proficiency: "advanced"
+        skills:
+          - "Document structure patterns"
+          - "Embedded document strategy"
+          - "Reference-based relationships"
+          - "Schema validation rules"
+          - "Dynamic schema evolution"
+          - "Schema versioning strategies"
+          - "Polymorphic documents and patterns"
+          
+      management_skills:
+        proficiency: "advanced"
+        skills:
+          - "MongoDB monitoring tools"
+          - "Performance profiling"
+          - "Replica set configuration"
+          - "Backup strategies and point-in-time recovery"
+          - "Read preference and write concern settings"
+          - "Index maintenance"
+          - "Data cleanup and removal"
+
+    learning_path:
+      - "NoSQL concepts and document model"
+      - "MongoDB CRUD operations"
+      - "Aggregation framework"
+      - "Indexing and query optimization"
+      - "Replication and sharding"
+
+  redis:
+    title: "Redis"
+    level: "expert"
+    overview: "Expert in-memory data store specialist with caching and real-time systems expertise"
+    competencies:
+      database_systems:
+        proficiency: "expert"
+        skills:
+          - "In-memory data store fundamentals"
+          - "Redis data types (String, List, Set, Hash, Sorted Set)"
+          - "Key-value storage principles"
+          - "Single-threaded execution model"
+          - "Pub/Sub messaging"
+          - "Transactions and Lua scripting"
+          - "Cluster mode and partitioning"
+          - "Sentinel for high availability"
+          
+      query_optimization:
+        proficiency: "advanced"
+        skills:
+          - "Efficient command usage"
+          - "Pipeline techniques"
+          - "Batch operations"
+          - "Scan operations for large datasets"
+          - "Memory usage analysis"
+          - "Compression techniques"
+          - "Eviction policies (LRU, LFU, TTL)"
+          
+      data_modeling:
+        proficiency: "advanced"
+        skills:
+          - "Cache-aside, write-through, write-behind patterns"
+          - "Cache invalidation strategies"
+          - "Data structure selection"
+          - "Key naming conventions"
+          - "Session management"
+          - "Leaderboard patterns"
+          - "Event sourcing with streams"
+          
+      management_skills:
+        proficiency: "advanced"
+        skills:
+          - "INFO command analysis"
+          - "Memory statistics monitoring"
+          - "RDB (snapshot) persistence"
+          - "AOF (append-only file) persistence"
+          - "Master-slave replication"
+          - "Sentinel configuration"
+          - "Cluster topology management"
+
+    learning_path:
+      - "Redis data structures"
+      - "Redis use cases and patterns"
+      - "Caching strategies"
+      - "Pub/Sub and streams"
+      - "Cluster and sentinel"
+
+  sql:
+    title: "SQL Developer"
+    level: "advanced"
+    overview: "Advanced SQL specialist with strong data modeling and query optimization expertise"
+    competencies:
+      database_systems:
+        proficiency: "advanced"
+        skills:
+          - "RDBMS concepts and architecture"
+          - "SQL standard versions (SQL92, SQL99, SQL:2003, SQL:2016)"
+          - "ANSI SQL compliance"
+          - "Views and materialized views"
+          - "Indexes and constraints"
+          - "Sequences and auto-increment"
+          - "Procedures and functions"
+          - "Transaction management and isolation levels"
+          
+      query_optimization:
+        proficiency: "expert"
+        skills:
+          - "SELECT statement optimization"
+          - "JOIN operation types and optimization"
+          - "Subqueries and correlated subqueries"
+          - "GROUP BY and aggregation optimization"
+          - "Window functions"
+          - "Query plan interpretation"
+          - "Index usage verification"
+          - "Execution plan caching"
+          
+      data_modeling:
+        proficiency: "expert"
+        skills:
+          - "Normalization forms (1NF to BCNF)"
+          - "Relationship design"
+          - "Entity-Relationship Modeling"
+          - "Star and snowflake schemas"
+          - "Fact and dimension tables"
+          - "Temporal data modeling"
+          - "Soft deletes and audit trails"
+          - "Partitioning and sharding"
+          
+      management_skills:
+        proficiency: "intermediate"
+        skills:
+          - "Constraint management"
+          - "Referential integrity"
+          - "Trigger usage"
+          - "Full and incremental backups"
+          - "Point-in-time recovery"
+          - "Capacity planning"
+          - "Authentication and authorization"
+
+    learning_path:
+      - "SQL fundamentals and standards"
+      - "Relational data modeling"
+      - "Query writing and optimization"
+      - "Database design patterns"
+      - "Transaction and concurrency"
+
+  blockchain:
+    title: "Blockchain Engineer"
+    level: "advanced"
+    overview: "Advanced blockchain specialist with smart contract and distributed ledger expertise"
+    competencies:
+      database_systems:
+        proficiency: "advanced"
+        skills:
+          - "Distributed ledger technology fundamentals"
+          - "Block structure and chaining"
+          - "Merkle trees and hashing"
+          - "Consensus mechanisms (PoW, PoS, PoA)"
+          - "Ethereum architecture"
+          - "Hyperledger Fabric"
+          - "Layer 1 vs Layer 2 solutions"
+          - "Smart contract architecture"
+          
+      query_optimization:
+        proficiency: "advanced"
+        skills:
+          - "Efficient contract queries"
+          - "View and pure functions"
+          - "Storage variable optimization"
+          - "Indexed events for off-chain querying"
+          - "The Graph and subgraph indexing"
+          - "Oracle patterns"
+          - "Gas optimization"
+          - "Storage efficiency"
+          
+      data_modeling:
+        proficiency: "advanced"
+        skills:
+          - "Smart contract state variables"
+          - "Data packing and alignment"
+          - "UTXO vs account model"
+          - "Transaction structure"
+          - "Merkle proofs"
+          - "Cryptographic commitments"
+          - "State channels and sidechains"
+          - "Rollups (Optimistic and ZK)"
+          
+      management_skills:
+        proficiency: "intermediate"
+        skills:
+          - "Transaction tracking"
+          - "Event log analysis"
+          - "Smart contract auditing"
+          - "Key management"
+          - "Vulnerability assessment"
+          - "Regulatory requirements"
+          - "Data retention policies"
+
+    learning_path:
+      - "Blockchain fundamentals"
+      - "Smart contracts (Solidity/Vyper)"
+      - "On-chain data design"
+      - "Off-chain indexing and queries"
+      - "Security and audit practices"
+
+  product_manager:
+    title: "Product Manager (Data/Database Focus)"
+    level: "strategic"
+    overview: "Strategic product manager with deep database technology and business acumen"
+    competencies:
+      database_systems:
+        proficiency: "advanced"
+        skills:
+          - "Understanding database capabilities"
+          - "Feature comparisons across platforms"
+          - "Scalability limits and trade-offs"
+          - "ACID vs BASE properties"
+          - "CAP theorem implications"
+          - "SQL vs NoSQL decision factors"
+          - "Commercial vs open-source options"
+          - "Cloud native databases"
+          
+      query_optimization:
+        proficiency: "intermediate"
+        skills:
+          - "Query latency requirements"
+          - "Throughput expectations"
+          - "Concurrency limits"
+          - "SLA definitions and monitoring"
+          - "Query optimization ROI"
+          - "Infrastructure scaling costs"
+          - "Capacity planning"
+          
+      data_modeling:
+        proficiency: "advanced"
+        skills:
+          - "Data requirements gathering"
+          - "Schema evolution planning"
+          - "Data quality standards"
+          - "Query response times"
+          - "Data freshness requirements"
+          - "Consistency vs availability tradeoffs"
+          - "Analytics and reporting needs"
+          
+      management_skills:
+        proficiency: "expert"
+        skills:
+          - "Stakeholder management"
+          - "Engineering team alignment"
+          - "Roadmap planning (3-6-12 months)"
+          - "Feature prioritization"
+          - "Risk assessment and mitigation"
+          - "Technical debt management"
+          - "Build vs buy decisions"
+          - "Technology selection criteria"
+
+    learning_path:
+      - "Database technology landscape"
+      - "Data product requirements"
+      - "Performance and scalability concepts"
+      - "Cost and ROI analysis"
+      - "Roadmap planning and prioritization"
+
+competency_levels:
+  expert:
+    description: "Deep mastery with ability to architect solutions and mentor others"
+    years_of_experience: "5+"
+    responsibilities:
+      - "Design and implement complex systems"
+      - "Mentor junior team members"
+      - "Drive architectural decisions"
+      - "Optimize for scalability and performance"
+      
+  advanced:
+    description: "Strong proficiency with ability to solve complex problems independently"
+    years_of_experience: "3-5"
+    responsibilities:
+      - "Solve technical problems independently"
+      - "Contribute to architecture"
+      - "Help junior developers"
+      - "Drive optimization efforts"
+      
+  intermediate:
+    description: "Solid understanding with ability to work on most tasks with minimal guidance"
+    years_of_experience: "1-3"
+    responsibilities:
+      - "Work on assigned features"
+      - "Resolve known issues"
+      - "Follow established patterns"
+      - "Contribute to documentation"
+      
+  strategic:
+    description: "Business and strategic focus with technical depth"
+    years_of_experience: "5+"
+    responsibilities:
+      - "Define product strategy"
+      - "Align technical decisions with business"
+      - "Manage stakeholders"
+      - "Drive roadmap"
+
+assessment_criteria:
+  technical_proficiency:
+    - "Can design and optimize database schemas"
+    - "Understands query execution plans"
+    - "Can troubleshoot performance issues"
+    - "Knowledge of replication and HA"
+    
+  operational_excellence:
+    - "Implements monitoring and alerting"
+    - "Manages backups and recovery"
+    - "Performs maintenance operations"
+    - "Responds to incidents effectively"
+    
+  strategic_thinking:
+    - "Plans for scalability"
+    - "Evaluates technology choices"
+    - "Manages costs and resources"
+    - "Aligns with business objectives"

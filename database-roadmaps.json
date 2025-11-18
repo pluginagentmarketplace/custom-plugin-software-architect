@@ -1,0 +1,1081 @@
+{
+  "framework": {
+    "title": "Database and Data Management Roadmaps Framework",
+    "version": "1.0",
+    "created": "2025-11-18",
+    "description": "Comprehensive career roadmaps for database and data management professionals"
+  },
+  "roles": {
+    "postgresql_dba": {
+      "title": "PostgreSQL DBA",
+      "level": "expert",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Core Components",
+              "items": [
+                "PostgreSQL architecture (MVCC, WAL, buffer management)",
+                "Physical and logical storage structures",
+                "Process architecture (postmaster, backend processes)",
+                "Memory management and configuration tuning"
+              ]
+            },
+            {
+              "name": "Installation & Setup",
+              "items": [
+                "PostgreSQL installation and initialization",
+                "Version management and upgrades",
+                "Cluster configuration and initialization",
+                "PostgreSQL authentication and role management"
+              ]
+            },
+            {
+              "name": "Advanced Database Concepts",
+              "items": [
+                "Partitioning strategies (range, list, hash)",
+                "Replication models (streaming, logical)",
+                "Backup and recovery strategies",
+                "Point-in-time recovery (PITR)"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Query Analysis",
+              "items": [
+                "EXPLAIN and EXPLAIN ANALYZE usage",
+                "Query plan interpretation",
+                "Index scan vs sequential scan analysis",
+                "Join operation optimization"
+              ]
+            },
+            {
+              "name": "Indexing Strategies",
+              "items": [
+                "B-tree, Hash, GiST, GIN, BRIN indices",
+                "Partial and expression-based indices",
+                "Index maintenance and bloat management",
+                "Index selection and cost optimization"
+              ]
+            },
+            {
+              "name": "Performance Tuning",
+              "items": [
+                "Query rewriting techniques",
+                "Materialized views optimization",
+                "Window function performance",
+                "Common Table Expressions (CTE) optimization",
+                "Statistics collection and analysis"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Schema Design",
+              "items": [
+                "Normalization forms (1NF to BCNF)",
+                "Denormalization strategies for performance",
+                "Primary and foreign key design",
+                "Constraint definitions (UNIQUE, CHECK, NOT NULL)"
+              ]
+            },
+            {
+              "name": "Table Design",
+              "items": [
+                "ACID properties implementation",
+                "Column data type selection",
+                "Inheritance and composite types",
+                "Sequence and identity column design"
+              ]
+            },
+            {
+              "name": "Advanced Modeling",
+              "items": [
+                "JSON and JSONB handling",
+                "Array and range types",
+                "Geometric and networking types",
+                "Custom data type creation"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Monitoring & Diagnostics",
+              "items": [
+                "pg_stat views and statistics",
+                "Query performance insights",
+                "Slow query identification",
+                "Lock and connection monitoring",
+                "Activity monitoring and pg_stat_statements"
+              ]
+            },
+            {
+              "name": "Maintenance Operations",
+              "items": [
+                "VACUUM and ANALYZE procedures",
+                "REINDEX operations",
+                "Table and index bloat management",
+                "Autovacuum configuration and tuning"
+              ]
+            },
+            {
+              "name": "High Availability",
+              "items": [
+                "Master-replica setup",
+                "Streaming replication configuration",
+                "Automatic failover mechanisms",
+                "Load balancing across replicas"
+              ]
+            },
+            {
+              "name": "Backup & Recovery",
+              "items": [
+                "Full and incremental backups",
+                "WAL archiving",
+                "Recovery Time Objective (RTO) and Recovery Point Objective (RPO)",
+                "Testing recovery procedures"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "PostgreSQL fundamentals and architecture",
+        "Query performance tuning",
+        "Replication and high availability",
+        "Backup, recovery, and disaster recovery",
+        "Monitoring and optimization"
+      ]
+    },
+    "mongodb": {
+      "title": "MongoDB",
+      "level": "expert",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Core MongoDB Concepts",
+              "items": [
+                "Document-oriented storage model",
+                "BSON format and data representation",
+                "Collections and databases",
+                "MongoDB cluster architecture"
+              ]
+            },
+            {
+              "name": "Installation & Deployment",
+              "items": [
+                "Single-node setup and configuration",
+                "Replica sets configuration",
+                "Sharded cluster deployment",
+                "MongoDB Atlas cloud platform"
+              ]
+            },
+            {
+              "name": "Data Organization",
+              "items": [
+                "Database and collection management",
+                "Document structure design",
+                "Embedded vs referenced documents",
+                "Storage engines (WiredTiger, MMAPv1)"
+              ]
+            },
+            {
+              "name": "Advanced Features",
+              "items": [
+                "Transactions and ACID compliance",
+                "Change streams and real-time data",
+                "Time-series collections",
+                "Search indexes"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Query Execution",
+              "items": [
+                "Query methods and operators",
+                "Aggregation framework",
+                "Explain output interpretation",
+                "Query plan analysis"
+              ]
+            },
+            {
+              "name": "Indexing in MongoDB",
+              "items": [
+                "Single-field and compound indices",
+                "Text search indices",
+                "Geospatial indices",
+                "TTL and partial indices",
+                "Index selection and cardinality"
+              ]
+            },
+            {
+              "name": "Performance Tuning",
+              "items": [
+                "Query optimization techniques",
+                "Aggregation pipeline optimization",
+                "Projection and filtering efficiency",
+                "Query selectivity analysis",
+                "Batch processing strategies"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Document Design",
+              "items": [
+                "Document structure patterns",
+                "Embedded document strategy",
+                "Reference-based relationships",
+                "Subdocuments handling"
+              ]
+            },
+            {
+              "name": "Schema Flexibility",
+              "items": [
+                "Schema validation rules",
+                "Dynamic schema evolution",
+                "Schema versioning strategies",
+                "Polymorphic documents"
+              ]
+            },
+            {
+              "name": "Data Patterns",
+              "items": [
+                "Polymorphic patterns",
+                "Attribute patterns",
+                "Approximation patterns",
+                "Outlier patterns",
+                "Precomputation patterns"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Monitoring & Diagnostics",
+              "items": [
+                "MongoDB monitoring tools",
+                "Performance profiling",
+                "Database statistics",
+                "Slow query analysis"
+              ]
+            },
+            {
+              "name": "Maintenance Operations",
+              "items": [
+                "Database repair and optimization",
+                "Index maintenance",
+                "Compact and compress operations",
+                "Data cleanup and removal"
+              ]
+            },
+            {
+              "name": "Replication Management",
+              "items": [
+                "Replica set configuration",
+                "Election and failover processes",
+                "Read preference configuration",
+                "Write concern settings"
+              ]
+            },
+            {
+              "name": "Backup & Recovery",
+              "items": [
+                "Backup strategies and tools",
+                "Point-in-time recovery",
+                "Cluster backup procedures",
+                "Testing restore procedures"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "NoSQL concepts and document model",
+        "MongoDB CRUD operations",
+        "Aggregation framework",
+        "Indexing and query optimization",
+        "Replication and sharding"
+      ]
+    },
+    "redis": {
+      "title": "Redis",
+      "level": "expert",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Core Redis Architecture",
+              "items": [
+                "In-memory data store fundamentals",
+                "Redis data types (String, List, Set, Hash, Sorted Set)",
+                "Key-value storage principles",
+                "Single-threaded execution model"
+              ]
+            },
+            {
+              "name": "Installation & Setup",
+              "items": [
+                "Redis server installation",
+                "Configuration file management",
+                "Default and custom settings",
+                "Standalone and cluster modes"
+              ]
+            },
+            {
+              "name": "Data Structures",
+              "items": [
+                "Strings and binary-safe operations",
+                "Lists and queue operations",
+                "Sets and membership operations",
+                "Hashes and object representation",
+                "Sorted sets and scoring",
+                "Streams and event logs"
+              ]
+            },
+            {
+              "name": "Advanced Features",
+              "items": [
+                "Pub/Sub messaging",
+                "Transactions and Lua scripting",
+                "Cluster mode and partitioning",
+                "Sentinel for high availability"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Command Optimization",
+              "items": [
+                "Efficient command usage",
+                "Pipeline techniques",
+                "Batch operations",
+                "N+1 query problem resolution"
+              ]
+            },
+            {
+              "name": "Data Access Patterns",
+              "items": [
+                "Key naming conventions",
+                "Scan operations for large datasets",
+                "Cursor management",
+                "Bit and bitmap operations"
+              ]
+            },
+            {
+              "name": "Memory Optimization",
+              "items": [
+                "Memory usage analysis",
+                "Compression techniques",
+                "Data structure efficiency",
+                "Eviction policies (LRU, LFU, TTL)"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Cache Patterns",
+              "items": [
+                "Cache-aside pattern",
+                "Write-through pattern",
+                "Write-behind pattern",
+                "Cache invalidation strategies"
+              ]
+            },
+            {
+              "name": "Data Structure Selection",
+              "items": [
+                "String vs other data types",
+                "Sorted set for leaderboards",
+                "Streams for event sourcing",
+                "Geospatial indices"
+              ]
+            },
+            {
+              "name": "TTL & Expiration",
+              "items": [
+                "Key expiration management",
+                "Lazy and active expiration",
+                "Sliding window patterns",
+                "Session management"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Monitoring & Diagnostics",
+              "items": [
+                "INFO command analysis",
+                "Memory statistics",
+                "Command latency monitoring",
+                "Client connection analysis"
+              ]
+            },
+            {
+              "name": "Performance Tuning",
+              "items": [
+                "Throughput optimization",
+                "Latency reduction",
+                "Memory efficiency",
+                "Connection pooling"
+              ]
+            },
+            {
+              "name": "Persistence & Durability",
+              "items": [
+                "RDB (snapshot) persistence",
+                "AOF (append-only file) persistence",
+                "AOF rewriting",
+                "Durability vs performance tradeoffs"
+              ]
+            },
+            {
+              "name": "Replication & High Availability",
+              "items": [
+                "Master-slave replication",
+                "Sentinel configuration",
+                "Cluster topology management",
+                "Failover procedures"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "Redis data structures",
+        "Redis use cases and patterns",
+        "Caching strategies",
+        "Pub/Sub and streams",
+        "Cluster and sentinel"
+      ]
+    },
+    "sql": {
+      "title": "SQL Developer",
+      "level": "advanced",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Relational Database Fundamentals",
+              "items": [
+                "RDBMS concepts and architecture",
+                "Tables, rows, and columns",
+                "Data types and domains",
+                "NULL handling"
+              ]
+            },
+            {
+              "name": "SQL Standards",
+              "items": [
+                "SQL standard versions (SQL92, SQL99, SQL:2003, SQL:2016)",
+                "ANSI SQL compliance",
+                "Vendor-specific extensions",
+                "Cross-database compatibility"
+              ]
+            },
+            {
+              "name": "Database Objects",
+              "items": [
+                "Tables and temporary tables",
+                "Views and materialized views",
+                "Indexes and constraints",
+                "Sequences and auto-increment",
+                "Procedures and functions"
+              ]
+            },
+            {
+              "name": "Transaction Management",
+              "items": [
+                "ACID properties",
+                "Transaction isolation levels",
+                "Locking mechanisms",
+                "Concurrency control"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Query Construction",
+              "items": [
+                "SELECT statement optimization",
+                "JOIN operation types (INNER, OUTER, CROSS, SELF)",
+                "Subqueries and correlated subqueries",
+                "Set operations (UNION, INTERSECT, EXCEPT)"
+              ]
+            },
+            {
+              "name": "Aggregation & Grouping",
+              "items": [
+                "GROUP BY optimization",
+                "HAVING clause usage",
+                "Window functions",
+                "Aggregate functions"
+              ]
+            },
+            {
+              "name": "Execution Plan Analysis",
+              "items": [
+                "Query plan interpretation",
+                "Cost estimation",
+                "Index usage verification",
+                "Bottleneck identification"
+              ]
+            },
+            {
+              "name": "Advanced Optimization",
+              "items": [
+                "Query hints and optimization directives",
+                "Statistics and histogram analysis",
+                "Execution plan caching",
+                "Bind parameter optimization"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Normalization",
+              "items": [
+                "First Normal Form (1NF)",
+                "Second Normal Form (2NF)",
+                "Third Normal Form (3NF)",
+                "Boyce-Codd Normal Form (BCNF)",
+                "Fourth and Fifth Normal Forms"
+              ]
+            },
+            {
+              "name": "Relationship Design",
+              "items": [
+                "One-to-one relationships",
+                "One-to-many relationships",
+                "Many-to-many relationships",
+                "Self-referencing tables"
+              ]
+            },
+            {
+              "name": "Schema Design Patterns",
+              "items": [
+                "Entity-Relationship Modeling",
+                "Star and snowflake schemas",
+                "Fact and dimension tables",
+                "Slowly changing dimensions"
+              ]
+            },
+            {
+              "name": "Advanced Concepts",
+              "items": [
+                "Temporal data modeling",
+                "Soft deletes and audit trails",
+                "Partitioning strategies",
+                "Sharding approaches"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "intermediate",
+          "categories": [
+            {
+              "name": "Data Integrity",
+              "items": [
+                "Constraint management (PK, FK, UNIQUE, CHECK)",
+                "Referential integrity",
+                "Data validation rules",
+                "Trigger usage"
+              ]
+            },
+            {
+              "name": "Backup & Recovery",
+              "items": [
+                "Full and incremental backups",
+                "Log backups and recovery",
+                "Point-in-time recovery",
+                "Disaster recovery planning"
+              ]
+            },
+            {
+              "name": "Performance Management",
+              "items": [
+                "Capacity planning",
+                "Growth forecasting",
+                "Archive and purge strategies",
+                "Monitoring and alerting"
+              ]
+            },
+            {
+              "name": "Security",
+              "items": [
+                "Authentication and authorization",
+                "Role-based access control (RBAC)",
+                "Encryption at rest and in transit",
+                "Data masking and anonymization"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "SQL fundamentals and standards",
+        "Relational data modeling",
+        "Query writing and optimization",
+        "Database design patterns",
+        "Transaction and concurrency"
+      ]
+    },
+    "blockchain": {
+      "title": "Blockchain Engineer",
+      "level": "advanced",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Blockchain Fundamentals",
+              "items": [
+                "Distributed ledger technology",
+                "Block structure and chaining",
+                "Merkle trees and hashing",
+                "Consensus mechanisms (PoW, PoS, PoA)"
+              ]
+            },
+            {
+              "name": "Blockchain Platforms",
+              "items": [
+                "Ethereum architecture",
+                "Hyperledger Fabric",
+                "Polkadot and Substrate",
+                "Solana architecture",
+                "Layer 1 vs Layer 2 solutions"
+              ]
+            },
+            {
+              "name": "Data Storage Models",
+              "items": [
+                "Chain-based storage",
+                "State management",
+                "UTXO (Unspent Transaction Output) model",
+                "Account model",
+                "Storage proofs"
+              ]
+            },
+            {
+              "name": "Smart Contracts",
+              "items": [
+                "Smart contract architecture",
+                "State machines",
+                "Gas and computational limits",
+                "Contract interactions and patterns"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "On-Chain Data Access",
+              "items": [
+                "Efficient contract queries",
+                "View and pure functions",
+                "Storage variable optimization",
+                "Indexed events for off-chain querying"
+              ]
+            },
+            {
+              "name": "Off-Chain Indexing",
+              "items": [
+                "The Graph and subgraph indexing",
+                "Oracle patterns",
+                "Query optimization for blockchain data",
+                "Caching strategies for immutable data"
+              ]
+            },
+            {
+              "name": "Performance Considerations",
+              "items": [
+                "Transaction throughput",
+                "Latency optimization",
+                "Batch processing",
+                "Batching transactions"
+              ]
+            },
+            {
+              "name": "Cost Optimization",
+              "items": [
+                "Gas optimization",
+                "Storage efficiency",
+                "Computation minimization",
+                "Memory optimization"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "On-Chain Data Design",
+              "items": [
+                "Smart contract state variables",
+                "Data packing and alignment",
+                "Access patterns",
+                "Immutability implications"
+              ]
+            },
+            {
+              "name": "Transaction Design",
+              "items": [
+                "UTXO vs account model implications",
+                "Transaction structure",
+                "Atomic operations",
+                "Rollback and failure handling"
+              ]
+            },
+            {
+              "name": "Data Integrity Patterns",
+              "items": [
+                "Merkle proofs",
+                "Cryptographic commitments",
+                "Oracles and external data",
+                "Signature schemes"
+              ]
+            },
+            {
+              "name": "Scalability Patterns",
+              "items": [
+                "State channels",
+                "Sidechains",
+                "Rollups (Optimistic and ZK)",
+                "Sharding approaches"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "intermediate",
+          "categories": [
+            {
+              "name": "Monitoring & Diagnostics",
+              "items": [
+                "Transaction tracking",
+                "Event log analysis",
+                "Node synchronization monitoring",
+                "Network health monitoring"
+              ]
+            },
+            {
+              "name": "Security Management",
+              "items": [
+                "Smart contract auditing",
+                "Vulnerability assessment",
+                "Key management",
+                "Access control patterns"
+              ]
+            },
+            {
+              "name": "Data Archival",
+              "items": [
+                "Historical data access",
+                "Snapshot strategies",
+                "Pruning and compression",
+                "Immutable backup systems"
+              ]
+            },
+            {
+              "name": "Compliance & Governance",
+              "items": [
+                "Regulatory requirements",
+                "Data retention policies",
+                "Transparency and auditability",
+                "Smart contract upgrade mechanisms"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "Blockchain fundamentals",
+        "Smart contracts (Solidity/Vyper)",
+        "On-chain data design",
+        "Off-chain indexing and queries",
+        "Security and audit practices"
+      ]
+    },
+    "product_manager": {
+      "title": "Product Manager (Data/Database Focus)",
+      "level": "strategic",
+      "competencies": {
+        "database_systems": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Product Context",
+              "items": [
+                "Understanding database capabilities",
+                "Feature comparisons across platforms",
+                "Scalability limits and trade-offs",
+                "Cost implications of architectural choices"
+              ]
+            },
+            {
+              "name": "Industry Standards",
+              "items": [
+                "ACID vs BASE properties",
+                "CAP theorem implications",
+                "SQL vs NoSQL decision factors",
+                "Emerging database technologies"
+              ]
+            },
+            {
+              "name": "Vendor Landscape",
+              "items": [
+                "Commercial vs open-source options",
+                "Managed services vs self-hosted",
+                "Cloud native databases",
+                "Specialized databases (time-series, graph, etc.)"
+              ]
+            }
+          ]
+        },
+        "query_optimization": {
+          "proficiency": "intermediate",
+          "categories": [
+            {
+              "name": "Performance User Stories",
+              "items": [
+                "Query latency requirements",
+                "Throughput expectations",
+                "Concurrency limits",
+                "Real-time analytics needs"
+              ]
+            },
+            {
+              "name": "Performance Monitoring",
+              "items": [
+                "Key performance indicators (KPIs)",
+                "SLA definitions and monitoring",
+                "Alerting and escalation",
+                "Capacity planning needs"
+              ]
+            },
+            {
+              "name": "Cost vs Performance",
+              "items": [
+                "Query optimization ROI",
+                "Infrastructure scaling costs",
+                "Index maintenance overhead",
+                "Caching strategy economics"
+              ]
+            }
+          ]
+        },
+        "data_modeling": {
+          "proficiency": "advanced",
+          "categories": [
+            {
+              "name": "Data Product Definition",
+              "items": [
+                "Data requirements gathering",
+                "Schema evolution planning",
+                "Data quality standards",
+                "Master data management"
+              ]
+            },
+            {
+              "name": "User Experience Impact",
+              "items": [
+                "Query response times",
+                "Data freshness requirements",
+                "Consistency vs availability tradeoffs",
+                "Data presentation formats"
+              ]
+            },
+            {
+              "name": "Business Logic",
+              "items": [
+                "Data-driven features",
+                "Analytics and reporting needs",
+                "Historical data tracking",
+                "Regulatory data requirements"
+              ]
+            }
+          ]
+        },
+        "management_skills": {
+          "proficiency": "expert",
+          "categories": [
+            {
+              "name": "Stakeholder Management",
+              "items": [
+                "Engineering team alignment",
+                "Executive communication",
+                "Cross-functional collaboration",
+                "Customer feedback integration"
+              ]
+            },
+            {
+              "name": "Product Strategy",
+              "items": [
+                "Roadmap planning (3-6-12 months)",
+                "Feature prioritization",
+                "Risk assessment and mitigation",
+                "Technical debt management",
+                "Scalability planning"
+              ]
+            },
+            {
+              "name": "Metrics & Analytics",
+              "items": [
+                "Database performance metrics",
+                "Cost tracking and optimization",
+                "Adoption metrics",
+                "Customer satisfaction (NPS, CSAT)"
+              ]
+            },
+            {
+              "name": "Decision Making",
+              "items": [
+                "Build vs buy decisions",
+                "Technology selection criteria",
+                "Migration strategies",
+                "Sunset and cleanup planning"
+              ]
+            }
+          ]
+        }
+      },
+      "learning_path": [
+        "Database technology landscape",
+        "Data product requirements",
+        "Performance and scalability concepts",
+        "Cost and ROI analysis",
+        "Roadmap planning and prioritization"
+      ]
+    }
+  },
+  "competency_matrix": {
+    "headers": ["Role", "Database Systems", "Query Optimization", "Data Modeling", "Management Skills"],
+    "rows": [
+      {
+        "role": "PostgreSQL DBA",
+        "database_systems": "Expert",
+        "query_optimization": "Expert",
+        "data_modeling": "Advanced",
+        "management_skills": "Advanced"
+      },
+      {
+        "role": "MongoDB",
+        "database_systems": "Expert",
+        "query_optimization": "Expert",
+        "data_modeling": "Advanced",
+        "management_skills": "Advanced"
+      },
+      {
+        "role": "Redis",
+        "database_systems": "Expert",
+        "query_optimization": "Advanced",
+        "data_modeling": "Advanced",
+        "management_skills": "Advanced"
+      },
+      {
+        "role": "SQL Developer",
+        "database_systems": "Advanced",
+        "query_optimization": "Expert",
+        "data_modeling": "Expert",
+        "management_skills": "Intermediate"
+      },
+      {
+        "role": "Blockchain Engineer",
+        "database_systems": "Advanced",
+        "query_optimization": "Advanced",
+        "data_modeling": "Advanced",
+        "management_skills": "Intermediate"
+      },
+      {
+        "role": "Product Manager",
+        "database_systems": "Advanced",
+        "query_optimization": "Intermediate",
+        "data_modeling": "Advanced",
+        "management_skills": "Expert"
+      }
+    ]
+  },
+  "integration_points": {
+    "cross_database_scenarios": [
+      "Polyglot persistence (using multiple databases)",
+      "Data synchronization strategies",
+      "Event-driven architecture",
+      "Change data capture (CDC)"
+    ],
+    "data_architecture_patterns": [
+      "Lambda architecture (batch + stream)",
+      "Kappa architecture (stream processing)",
+      "Event sourcing and CQRS",
+      "API-first data design"
+    ],
+    "team_collaboration": [
+      "Database selection workshops",
+      "Performance review meetings",
+      "Capacity planning sessions",
+      "Disaster recovery drills"
+    ]
+  },
+  "assessment_criteria": {
+    "technical_proficiency": [
+      "Can design and optimize database schemas",
+      "Understands query execution plans",
+      "Can troubleshoot performance issues",
+      "Knowledge of replication and HA"
+    ],
+    "operational_excellence": [
+      "Implements monitoring and alerting",
+      "Manages backups and recovery",
+      "Performs maintenance operations",
+      "Responds to incidents effectively"
+    ],
+    "strategic_thinking": [
+      "Plans for scalability",
+      "Evaluates technology choices",
+      "Manages costs and resources",
+      "Aligns with business objectives"
+    ]
+  }
+}

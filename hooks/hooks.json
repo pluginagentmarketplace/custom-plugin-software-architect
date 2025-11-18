@@ -1,0 +1,174 @@
+{
+  "hooks": [
+    {
+      "name": "learning-progress-tracker",
+      "description": "Tracks user progress through learning paths and agents",
+      "triggers": ["after-agent-invoked", "after-skill-completed"],
+      "actions": [
+        {
+          "type": "log",
+          "message": "User progressing through {agent_name}: {progress}%"
+        },
+        {
+          "type": "milestone-check",
+          "thresholds": [25, 50, 75, 100],
+          "callback": "congratulate_on_milestone"
+        }
+      ]
+    },
+    {
+      "name": "skill-dependency-validator",
+      "description": "Ensures prerequisites are met before accessing advanced skills",
+      "triggers": ["before-skill-invoked"],
+      "actions": [
+        {
+          "type": "validate",
+          "check": "prerequisites_completed",
+          "failMessage": "Complete prerequisites first: {prerequisites}"
+        }
+      ]
+    },
+    {
+      "name": "project-recommendation-engine",
+      "description": "Suggests projects based on completed learning paths",
+      "triggers": ["after-learning-stage-completed"],
+      "actions": [
+        {
+          "type": "recommend",
+          "source": "/projects",
+          "filter": "difficulty_level_matches_progress",
+          "max_suggestions": 3
+        }
+      ]
+    },
+    {
+      "name": "assessment-feedback-generator",
+      "description": "Provides personalized feedback from `/assess` command",
+      "triggers": ["after-assessment-submitted"],
+      "actions": [
+        {
+          "type": "generate-report",
+          "includes": [
+            "current_level",
+            "skill_gaps",
+            "recommended_agent",
+            "estimated_timeline",
+            "suggested_projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "agent-context-loader",
+      "description": "Automatically loads relevant agent based on user query",
+      "triggers": ["before-agent-selection"],
+      "actions": [
+        {
+          "type": "analyze-context",
+          "match_keywords": true,
+          "map": {
+            "frontend|react|vue|angular": "01-frontend-development",
+            "backend|api|rest|graphql": "02-backend-api-development",
+            "mobile|ios|android|flutter": "03-mobile-game-development",
+            "ai|ml|data|prompt|llm": "04-data-science-ai",
+            "devops|docker|kubernetes|cloud": "05-infrastructure-devops",
+            "database|sql|postgres|mongodb": "06-database-management",
+            "algorithm|cs|git|rust|c\\+\\+": "07-fundamentals-career"
+          }
+        }
+      ]
+    },
+    {
+      "name": "command-navigation-enhancer",
+      "description": "Provides smart navigation suggestions between commands",
+      "triggers": ["after-command-executed"],
+      "actions": [
+        {
+          "type": "suggest-next",
+          "logic": {
+            "/learn": ["Suggest /assess after learning"],
+            "/roadmap": ["Suggest /learn for specific path"],
+            "/assess": ["Suggest /projects based on assessment"],
+            "/projects": ["Suggest /learn for skill gaps"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "skill-coverage-tracker",
+      "description": "Monitors which skills have been covered in current session",
+      "triggers": ["skill-invoked"],
+      "actions": [
+        {
+          "type": "track",
+          "attributes": [
+            "skill_name",
+            "timestamp",
+            "user_interaction_depth",
+            "time_spent"
+          ],
+          "report_interval": "session_end"
+        }
+      ]
+    },
+    {
+      "name": "learning-pace-monitor",
+      "description": "Detects user learning pace and suggests adjustments",
+      "triggers": ["daily-check-in"],
+      "actions": [
+        {
+          "type": "analyze",
+          "metrics": [
+            "skills_completed_per_week",
+            "projects_completed",
+            "time_investment"
+          ],
+          "suggest_pace_adjustment": true
+        }
+      ]
+    },
+    {
+      "name": "role-focus-detector",
+      "description": "Detects which roles user is focusing on and optimizes recommendations",
+      "triggers": ["agent-selection", "skill-selection"],
+      "actions": [
+        {
+          "type": "detect-pattern",
+          "track_roles": true,
+          "personalize_recommendations": true,
+          "suggest_specialization_path": true
+        }
+      ]
+    },
+    {
+      "name": "resource-link-provider",
+      "description": "Ensures all agents and skills link to external resources",
+      "triggers": ["before-agent-display", "before-skill-display"],
+      "actions": [
+        {
+          "type": "validate-links",
+          "includes": ["books", "courses", "documentation", "tutorials"]
+        }
+      ]
+    }
+  ],
+  "configuration": {
+    "tracking_enabled": true,
+    "learning_progress_enabled": true,
+    "project_recommendations_enabled": true,
+    "assessment_feedback_enabled": true,
+    "smart_navigation_enabled": true,
+    "skill_coverage_enabled": true,
+    "pace_monitoring_enabled": true,
+    "storage": {
+      "type": "session",
+      "persistence": "optional"
+    },
+    "notifications": {
+      "milestone_celebrations": true,
+      "skill_recommendations": true,
+      "project_suggestions": true,
+      "learning_pace_alerts": true
+    }
+  }
+}
