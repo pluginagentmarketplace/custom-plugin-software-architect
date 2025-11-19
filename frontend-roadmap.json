@@ -1,0 +1,1959 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "source": "developer-roadmap (roadmap.sh)",
+    "lastUpdated": "2025-11-18",
+    "category": "Frontend Development",
+    "description": "Comprehensive frontend development roadmaps with skills, learning paths, technologies, and project types"
+  },
+  "roles": [
+    {
+      "id": "html-developer",
+      "name": "HTML Developer",
+      "title": "HTML Fundamentals",
+      "description": "Master the markup language that structures web content",
+      "difficulty": "Beginner",
+      "estimatedTime": "2-4 weeks",
+      "skillCategories": [
+        {
+          "name": "Basic Concepts",
+          "skills": [
+            "HTML Syntax",
+            "HTML Structure",
+            "Elements and Tags",
+            "Attributes"
+          ]
+        },
+        {
+          "name": "Semantic HTML",
+          "skills": [
+            "Semantic Elements",
+            "Accessibility (a11y)",
+            "ARIA Attributes",
+            "Meta Tags and SEO"
+          ]
+        },
+        {
+          "name": "Forms and Input",
+          "skills": [
+            "Form Elements",
+            "Input Types",
+            "Form Validation",
+            "Accessibility in Forms"
+          ]
+        },
+        {
+          "name": "Multimedia and Graphics",
+          "skills": [
+            "Images",
+            "Audio and Video",
+            "Canvas and SVG",
+            "Responsive Images"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Foundations",
+          "topics": [
+            "What is HTML?",
+            "HTML Basics (elements, tags, attributes)",
+            "HTML Document Structure",
+            "Common HTML Elements"
+          ]
+        },
+        {
+          "stage": "2. Semantic HTML",
+          "topics": [
+            "Semantic Elements (header, nav, main, article, footer)",
+            "HTML5 Features",
+            "Document Outline",
+            "Best Practices"
+          ]
+        },
+        {
+          "stage": "3. Forms and Interaction",
+          "topics": [
+            "Form Elements and Inputs",
+            "Form Attributes",
+            "Validation Attributes",
+            "Accessibility Standards"
+          ]
+        },
+        {
+          "stage": "4. Advanced HTML",
+          "topics": [
+            "Data Attributes",
+            "Microdata and Structured Data",
+            "Meta Tags for SEO",
+            "Performance Optimization"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "HTML5",
+        "Semantic HTML",
+        "ARIA",
+        "Microdata",
+        "Web Accessibility Standards (WCAG)"
+      ],
+      "projectTypes": [
+        "Static websites",
+        "Landing pages",
+        "Personal portfolio",
+        "Blog structure",
+        "Documentation pages"
+      ]
+    },
+    {
+      "id": "css-developer",
+      "name": "CSS Developer",
+      "title": "CSS and Styling",
+      "description": "Create beautiful and responsive designs with CSS",
+      "difficulty": "Beginner-Intermediate",
+      "estimatedTime": "4-8 weeks",
+      "skillCategories": [
+        {
+          "name": "CSS Fundamentals",
+          "skills": [
+            "CSS Syntax and Selectors",
+            "Box Model",
+            "Colors and Fonts",
+            "Text Styling"
+          ]
+        },
+        {
+          "name": "Layout Systems",
+          "skills": [
+            "Flexbox",
+            "CSS Grid",
+            "Position and Float",
+            "Display Properties"
+          ]
+        },
+        {
+          "name": "Responsive Design",
+          "skills": [
+            "Media Queries",
+            "Mobile-First Design",
+            "Viewport Configuration",
+            "Responsive Typography"
+          ]
+        },
+        {
+          "name": "Advanced Styling",
+          "skills": [
+            "Animations and Transitions",
+            "Transforms",
+            "Filters and Effects",
+            "CSS Variables"
+          ]
+        },
+        {
+          "name": "Preprocessors and Tools",
+          "skills": [
+            "SASS/SCSS",
+            "PostCSS",
+            "CSS-in-JS",
+            "CSS Modules"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. CSS Fundamentals",
+          "topics": [
+            "What is CSS?",
+            "Selectors (element, class, id, attribute)",
+            "Box Model (margin, padding, border)",
+            "Colors, Fonts, and Text"
+          ]
+        },
+        {
+          "stage": "2. Layout Techniques",
+          "topics": [
+            "Display property",
+            "Flexbox layout",
+            "CSS Grid",
+            "Positioning (static, relative, absolute, fixed)"
+          ]
+        },
+        {
+          "stage": "3. Responsive Design",
+          "topics": [
+            "Media Queries",
+            "Mobile-First Approach",
+            "Flexible Grids and Fluid Layouts",
+            "Responsive Images"
+          ]
+        },
+        {
+          "stage": "4. Advanced CSS",
+          "topics": [
+            "CSS Variables",
+            "Animations and Transitions",
+            "Transforms",
+            "Filters, Shadows, and Effects"
+          ]
+        },
+        {
+          "stage": "5. CSS Architecture",
+          "topics": [
+            "BEM Methodology",
+            "OOCSS",
+            "CSS Preprocessors (SASS/SCSS)",
+            "Naming Conventions"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "CSS3",
+        "Flexbox",
+        "CSS Grid",
+        "SASS/SCSS",
+        "PostCSS",
+        "CSS-in-JS",
+        "CSS Modules",
+        "Tailwind CSS"
+      ],
+      "projectTypes": [
+        "Styled landing pages",
+        "Responsive websites",
+        "UI component libraries",
+        "Design system components",
+        "Animated interfaces"
+      ]
+    },
+    {
+      "id": "javascript-developer",
+      "name": "JavaScript Developer",
+      "title": "JavaScript Fundamentals",
+      "description": "Master core JavaScript for interactive web development",
+      "difficulty": "Beginner-Intermediate",
+      "estimatedTime": "6-12 weeks",
+      "skillCategories": [
+        {
+          "name": "JavaScript Fundamentals",
+          "skills": [
+            "Variables and Data Types",
+            "Operators and Expressions",
+            "Control Flow (if, loops)",
+            "Functions and Scope"
+          ]
+        },
+        {
+          "name": "Object-Oriented Programming",
+          "skills": [
+            "Objects and Prototypes",
+            "Classes",
+            "Inheritance",
+            "Encapsulation"
+          ]
+        },
+        {
+          "name": "DOM Manipulation",
+          "skills": [
+            "DOM Selection",
+            "DOM Traversal",
+            "Event Handling",
+            "Dynamic Content Update"
+          ]
+        },
+        {
+          "name": "Asynchronous JavaScript",
+          "skills": [
+            "Callbacks",
+            "Promises",
+            "Async/Await",
+            "Event Loop"
+          ]
+        },
+        {
+          "name": "ES6+ Features",
+          "skills": [
+            "Arrow Functions",
+            "Destructuring",
+            "Spread Operator",
+            "Template Literals",
+            "Modules (import/export)"
+          ]
+        },
+        {
+          "name": "Advanced Concepts",
+          "skills": [
+            "Closures",
+            "Higher-Order Functions",
+            "Functional Programming",
+            "Design Patterns"
+          ]
+        },
+        {
+          "name": "Web APIs",
+          "skills": [
+            "Fetch API",
+            "Local Storage",
+            "Web Workers",
+            "Geolocation API"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Fundamentals",
+          "topics": [
+            "What is JavaScript?",
+            "Variables (var, let, const)",
+            "Data Types and Operators",
+            "Control Flow (if/else, switch, loops)"
+          ]
+        },
+        {
+          "stage": "2. Functions and Scope",
+          "topics": [
+            "Function Declaration and Expression",
+            "Arrow Functions",
+            "Scope and Closure",
+            "Hoisting"
+          ]
+        },
+        {
+          "stage": "3. Objects and Arrays",
+          "topics": [
+            "Objects",
+            "Arrays and Array Methods",
+            "Destructuring",
+            "Spread Operator"
+          ]
+        },
+        {
+          "stage": "4. DOM Manipulation",
+          "topics": [
+            "Selecting Elements",
+            "Modifying DOM",
+            "Event Listeners",
+            "Event Delegation"
+          ]
+        },
+        {
+          "stage": "5. Asynchronous Programming",
+          "topics": [
+            "Callbacks",
+            "Promises",
+            "Async/Await",
+            "Error Handling"
+          ]
+        },
+        {
+          "stage": "6. Advanced Topics",
+          "topics": [
+            "Prototypes and Inheritance",
+            "Classes",
+            "Module System",
+            "Design Patterns"
+          ]
+        },
+        {
+          "stage": "7. APIs and Integration",
+          "topics": [
+            "Fetch API",
+            "REST Concepts",
+            "JSON",
+            "Web APIs"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "ES6+",
+        "DOM API",
+        "Fetch API",
+        "Web APIs",
+        "Node.js",
+        "npm/yarn",
+        "Webpack/Vite",
+        "Testing Frameworks (Jest, Mocha)"
+      ],
+      "projectTypes": [
+        "Interactive web applications",
+        "API integration projects",
+        "Games and animations",
+        "Real-time applications",
+        "Data visualization",
+        "Single-page applications"
+      ]
+    },
+    {
+      "id": "typescript-developer",
+      "name": "TypeScript Developer",
+      "title": "TypeScript and Type Safety",
+      "description": "Write safer, more maintainable code with TypeScript",
+      "difficulty": "Intermediate",
+      "estimatedTime": "4-8 weeks",
+      "skillCategories": [
+        {
+          "name": "TypeScript Basics",
+          "skills": [
+            "Type Annotations",
+            "Basic Types",
+            "Type Inference",
+            "Union and Intersection Types"
+          ]
+        },
+        {
+          "name": "Advanced Types",
+          "skills": [
+            "Generics",
+            "Conditional Types",
+            "Template Literal Types",
+            "Utility Types"
+          ]
+        },
+        {
+          "name": "Object-Oriented TypeScript",
+          "skills": [
+            "Classes and Inheritance",
+            "Interfaces",
+            "Abstract Classes",
+            "Access Modifiers"
+          ]
+        },
+        {
+          "name": "Functional TypeScript",
+          "skills": [
+            "Function Overloading",
+            "Callable Types",
+            "Higher-Order Functions",
+            "Function Composition"
+          ]
+        },
+        {
+          "name": "Decorators and Metadata",
+          "skills": [
+            "Decorators",
+            "Metadata Reflection",
+            "Experimental Features",
+            "Class and Property Decorators"
+          ]
+        },
+        {
+          "name": "Module System",
+          "skills": [
+            "Namespaces",
+            "Modules",
+            "Declaration Files",
+            "Type Definitions"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. TypeScript Fundamentals",
+          "topics": [
+            "What is TypeScript?",
+            "Setup and Configuration",
+            "Basic Types (string, number, boolean)",
+            "Arrays and Tuples",
+            "Type Annotations"
+          ]
+        },
+        {
+          "stage": "2. Interfaces and Types",
+          "topics": [
+            "Interfaces",
+            "Type Aliases",
+            "Union Types",
+            "Intersection Types",
+            "Literal Types"
+          ]
+        },
+        {
+          "stage": "3. Object-Oriented TypeScript",
+          "topics": [
+            "Classes",
+            "Constructors",
+            "Access Modifiers (public, private, protected)",
+            "Static Members",
+            "Inheritance"
+          ]
+        },
+        {
+          "stage": "4. Generics",
+          "topics": [
+            "Generic Functions",
+            "Generic Classes",
+            "Generic Constraints",
+            "Generic Defaults"
+          ]
+        },
+        {
+          "stage": "5. Advanced Types",
+          "topics": [
+            "Utility Types (Pick, Omit, Record, etc.)",
+            "Conditional Types",
+            "Mapped Types",
+            "Template Literal Types"
+          ]
+        },
+        {
+          "stage": "6. Modules and Declarations",
+          "topics": [
+            "ES Modules",
+            "Namespaces",
+            "Declaration Files (.d.ts)",
+            "Type Definitions"
+          ]
+        },
+        {
+          "stage": "7. Advanced Features",
+          "topics": [
+            "Decorators",
+            "Metadata Reflection",
+            "Triple-slash Directives",
+            "Declaration Merging"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "TypeScript",
+        "Generics",
+        "Type System",
+        "tsconfig.json",
+        "Type Definitions",
+        "Utility Types",
+        "Declaration Files"
+      ],
+      "projectTypes": [
+        "Large-scale JavaScript applications",
+        "Framework-based projects (React, Vue, Angular)",
+        "Library development",
+        "API and backend services",
+        "Enterprise applications"
+      ]
+    },
+    {
+      "id": "react-developer",
+      "name": "React Developer",
+      "title": "React Framework",
+      "description": "Build dynamic user interfaces with React",
+      "difficulty": "Intermediate-Advanced",
+      "estimatedTime": "8-16 weeks",
+      "skillCategories": [
+        {
+          "name": "React Fundamentals",
+          "skills": [
+            "Components (Class and Functional)",
+            "JSX",
+            "Props",
+            "State Management"
+          ]
+        },
+        {
+          "name": "React Hooks",
+          "skills": [
+            "useState",
+            "useEffect",
+            "useContext",
+            "Custom Hooks",
+            "Rules of Hooks"
+          ]
+        },
+        {
+          "name": "State Management",
+          "skills": [
+            "Component State",
+            "Context API",
+            "Redux",
+            "Zustand",
+            "Recoil"
+          ]
+        },
+        {
+          "name": "Component Patterns",
+          "skills": [
+            "Composition",
+            "Render Props",
+            "Higher-Order Components",
+            "Compound Components"
+          ]
+        },
+        {
+          "name": "Performance Optimization",
+          "skills": [
+            "Memoization (React.memo, useMemo)",
+            "Code Splitting",
+            "Lazy Loading",
+            "Virtual Scrolling"
+          ]
+        },
+        {
+          "name": "Async Operations",
+          "skills": [
+            "Data Fetching",
+            "Error Handling",
+            "Loading States",
+            "Suspense"
+          ]
+        },
+        {
+          "name": "Testing",
+          "skills": [
+            "Unit Testing (Jest)",
+            "Component Testing (React Testing Library)",
+            "Integration Testing",
+            "End-to-End Testing"
+          ]
+        },
+        {
+          "name": "Routing",
+          "skills": [
+            "React Router",
+            "Navigation",
+            "Nested Routes",
+            "Dynamic Routes"
+          ]
+        },
+        {
+          "name": "Ecosystem and Tools",
+          "skills": [
+            "Build Tools (Vite, Webpack)",
+            "Development Servers",
+            "Linting and Formatting",
+            "State DevTools"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. React Fundamentals",
+          "topics": [
+            "What is React?",
+            "Components and JSX",
+            "Functional Components",
+            "Props and Children",
+            "Rendering Elements"
+          ]
+        },
+        {
+          "stage": "2. State and Lifecycle",
+          "topics": [
+            "useState Hook",
+            "useEffect Hook",
+            "Component Lifecycle",
+            "Side Effects",
+            "Cleanup Functions"
+          ]
+        },
+        {
+          "stage": "3. Handling Events and Forms",
+          "topics": [
+            "Event Handling",
+            "Form Submission",
+            "Controlled Components",
+            "Form Libraries (React Hook Form, Formik)"
+          ]
+        },
+        {
+          "stage": "4. Hooks Deep Dive",
+          "topics": [
+            "useContext",
+            "useReducer",
+            "useCallback and useMemo",
+            "Custom Hooks",
+            "Rules of Hooks"
+          ]
+        },
+        {
+          "stage": "5. State Management",
+          "topics": [
+            "Context API",
+            "Redux Fundamentals",
+            "Redux Middleware",
+            "Alternative Libraries (Zustand, Jotai)"
+          ]
+        },
+        {
+          "stage": "6. Component Patterns",
+          "topics": [
+            "Higher-Order Components",
+            "Render Props",
+            "Compound Components",
+            "Container and Presentational Components"
+          ]
+        },
+        {
+          "stage": "7. Async and Data Fetching",
+          "topics": [
+            "Fetching Data",
+            "Error Handling",
+            "Loading States",
+            "Suspense and React.lazy"
+          ]
+        },
+        {
+          "stage": "8. Routing",
+          "topics": [
+            "React Router Setup",
+            "Navigation",
+            "Dynamic Routes",
+            "Nested Routes",
+            "Route Protection"
+          ]
+        },
+        {
+          "stage": "9. Testing React",
+          "topics": [
+            "Jest Configuration",
+            "React Testing Library",
+            "Testing Hooks",
+            "Snapshot Testing"
+          ]
+        },
+        {
+          "stage": "10. Performance and Advanced Topics",
+          "topics": [
+            "Code Splitting",
+            "Lazy Loading",
+            "Memoization",
+            "Profiling",
+            "Concurrent Features"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "React",
+        "JSX",
+        "Hooks",
+        "Context API",
+        "Redux",
+        "React Router",
+        "Testing Library",
+        "Vite/Webpack",
+        "State Management Libraries"
+      ],
+      "projectTypes": [
+        "Single-page applications",
+        "Dashboard applications",
+        "Real-time collaborative tools",
+        "E-commerce platforms",
+        "Content management systems",
+        "Progressive web applications"
+      ]
+    },
+    {
+      "id": "nextjs-developer",
+      "name": "Next.js Developer",
+      "title": "Next.js Full-Stack Framework",
+      "description": "Build full-stack web applications with Next.js",
+      "difficulty": "Intermediate-Advanced",
+      "estimatedTime": "8-16 weeks",
+      "skillCategories": [
+        {
+          "name": "Next.js Fundamentals",
+          "skills": [
+            "Pages and Routing",
+            "File-based Routing",
+            "App Router (v13+)",
+            "Layout System"
+          ]
+        },
+        {
+          "name": "Server-Side Rendering",
+          "skills": [
+            "getServerSideProps",
+            "Server Components",
+            "Streaming HTML",
+            "Dynamic Rendering"
+          ]
+        },
+        {
+          "name": "Static Generation",
+          "skills": [
+            "getStaticProps",
+            "getStaticPaths",
+            "Incremental Static Regeneration (ISR)",
+            "Static Optimization"
+          ]
+        },
+        {
+          "name": "API Routes",
+          "skills": [
+            "API Route Creation",
+            "Request Handling",
+            "Middleware",
+            "API Integration"
+          ]
+        },
+        {
+          "name": "Data Fetching",
+          "skills": [
+            "fetch() in Server Components",
+            "Database Integration",
+            "ORM/Query Builders",
+            "Caching Strategies"
+          ]
+        },
+        {
+          "name": "Image Optimization",
+          "skills": [
+            "Image Component",
+            "Responsive Images",
+            "Format Optimization",
+            "Lazy Loading"
+          ]
+        },
+        {
+          "name": "Performance",
+          "skills": [
+            "Code Splitting",
+            "Prefetching",
+            "Script Optimization",
+            "Font Optimization"
+          ]
+        },
+        {
+          "name": "Authentication",
+          "skills": [
+            "Session Management",
+            "NextAuth.js",
+            "OAuth Integration",
+            "JWT Authentication"
+          ]
+        },
+        {
+          "name": "Deployment",
+          "skills": [
+            "Vercel Deployment",
+            "Self-hosting",
+            "Environment Variables",
+            "Performance Monitoring"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Next.js Fundamentals",
+          "topics": [
+            "What is Next.js?",
+            "Setup and Project Structure",
+            "File-based Routing",
+            "Pages and Dynamic Routes",
+            "Linking and Navigation"
+          ]
+        },
+        {
+          "stage": "2. Server-Side Capabilities",
+          "topics": [
+            "getServerSideProps",
+            "Running Code on Server",
+            "Accessing APIs",
+            "Database Queries"
+          ]
+        },
+        {
+          "stage": "3. Static Generation",
+          "topics": [
+            "getStaticProps",
+            "getStaticPaths",
+            "Pre-rendering",
+            "Incremental Static Regeneration"
+          ]
+        },
+        {
+          "stage": "4. API Routes",
+          "topics": [
+            "Creating API Endpoints",
+            "Request and Response Handling",
+            "Middleware",
+            "Error Handling"
+          ]
+        },
+        {
+          "stage": "5. App Router (v13+)",
+          "topics": [
+            "App Directory Structure",
+            "Server Components",
+            "Client Components",
+            "Nested Layouts",
+            "Route Groups"
+          ]
+        },
+        {
+          "stage": "6. Image and Media",
+          "topics": [
+            "Next/Image Component",
+            "Image Optimization",
+            "Responsive Images",
+            "Font Optimization"
+          ]
+        },
+        {
+          "stage": "7. Authentication and Security",
+          "topics": [
+            "Session Management",
+            "Authentication Libraries",
+            "Protected Routes",
+            "CSRF Protection"
+          ]
+        },
+        {
+          "stage": "8. Database Integration",
+          "topics": [
+            "Database Options",
+            "ORM/Query Builders",
+            "Data Validation",
+            "Connection Pooling"
+          ]
+        },
+        {
+          "stage": "9. Performance Optimization",
+          "topics": [
+            "Code Splitting",
+            "Prefetching",
+            "Performance Metrics",
+            "Bundle Analysis"
+          ]
+        },
+        {
+          "stage": "10. Deployment and DevOps",
+          "topics": [
+            "Vercel Deployment",
+            "Environment Configuration",
+            "CI/CD Pipelines",
+            "Monitoring and Logging"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "Next.js",
+        "React Server Components",
+        "API Routes",
+        "NextAuth.js",
+        "Database (PostgreSQL, MongoDB)",
+        "ORM (Prisma, Drizzle)",
+        "Vercel",
+        "TailwindCSS"
+      ],
+      "projectTypes": [
+        "Full-stack web applications",
+        "Content-rich websites",
+        "E-commerce platforms",
+        "SaaS applications",
+        "Blogs and documentation sites",
+        "Real-time applications"
+      ]
+    },
+    {
+      "id": "vue-developer",
+      "name": "Vue Developer",
+      "title": "Vue Framework",
+      "description": "Build progressive user interfaces with Vue.js",
+      "difficulty": "Intermediate-Advanced",
+      "estimatedTime": "8-12 weeks",
+      "skillCategories": [
+        {
+          "name": "Vue Fundamentals",
+          "skills": [
+            "Template Syntax",
+            "Components",
+            "Props and Emits",
+            "Lifecycle Hooks"
+          ]
+        },
+        {
+          "name": "Composition API",
+          "skills": [
+            "setup() Function",
+            "Reactive State",
+            "Computed Properties",
+            "Watchers",
+            "Custom Composables"
+          ]
+        },
+        {
+          "name": "Options API",
+          "skills": [
+            "Data",
+            "Methods",
+            "Computed",
+            "Watch",
+            "Lifecycle Methods"
+          ]
+        },
+        {
+          "name": "State Management",
+          "skills": [
+            "Provide/Inject",
+            "Pinia",
+            "Vuex",
+            "State Sharing"
+          ]
+        },
+        {
+          "name": "Routing",
+          "skills": [
+            "Vue Router Setup",
+            "Navigation",
+            "Dynamic Routes",
+            "Route Guards"
+          ]
+        },
+        {
+          "name": "Form Handling",
+          "skills": [
+            "v-model",
+            "Form Submission",
+            "Validation",
+            "Form Libraries"
+          ]
+        },
+        {
+          "name": "Advanced Features",
+          "skills": [
+            "Directives",
+            "Plugins",
+            "Slots and Scoped Slots",
+            "Teleport",
+            "Suspense"
+          ]
+        },
+        {
+          "name": "Testing",
+          "skills": [
+            "Unit Testing (Vitest)",
+            "Component Testing",
+            "E2E Testing",
+            "Snapshot Testing"
+          ]
+        },
+        {
+          "name": "Performance",
+          "skills": [
+            "Code Splitting",
+            "Lazy Loading",
+            "Async Components",
+            "Profiling"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Vue Basics",
+          "topics": [
+            "What is Vue?",
+            "Setup and Installation",
+            "Template Syntax",
+            "Directives (v-if, v-for, v-bind)",
+            "Event Handling (v-on)"
+          ]
+        },
+        {
+          "stage": "2. Components",
+          "topics": [
+            "Single File Components",
+            "Component Props",
+            "Component Events",
+            "Slots",
+            "Component Communication"
+          ]
+        },
+        {
+          "stage": "3. Composition API",
+          "topics": [
+            "setup() Function",
+            "Reactive State (ref, reactive)",
+            "Computed Properties",
+            "Watchers and WatchEffect",
+            "Lifecycle Hooks"
+          ]
+        },
+        {
+          "stage": "4. Options API",
+          "topics": [
+            "data()",
+            "Methods",
+            "Computed Properties",
+            "Watch",
+            "Lifecycle Methods"
+          ]
+        },
+        {
+          "stage": "5. Advanced Components",
+          "topics": [
+            "Custom Directives",
+            "Render Functions",
+            "Scoped Slots",
+            "Provide/Inject",
+            "Teleport and Suspense"
+          ]
+        },
+        {
+          "stage": "6. Form Handling",
+          "topics": [
+            "Two-way Binding (v-model)",
+            "Form Elements",
+            "Form Submission",
+            "Validation"
+          ]
+        },
+        {
+          "stage": "7. State Management",
+          "topics": [
+            "Pinia (Vue's official store)",
+            "Store Creation",
+            "Actions and Mutations",
+            "Modules"
+          ]
+        },
+        {
+          "stage": "8. Routing",
+          "topics": [
+            "Vue Router Setup",
+            "Routes and Navigation",
+            "Dynamic Routes",
+            "Nested Routes",
+            "Route Guards"
+          ]
+        },
+        {
+          "stage": "9. Testing and Performance",
+          "topics": [
+            "Unit Testing",
+            "Component Testing",
+            "Code Splitting",
+            "Lazy Loading Components"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "Vue 3",
+        "Composition API",
+        "Vue Router",
+        "Pinia",
+        "Vite",
+        "TypeScript Support",
+        "Vitest",
+        "DevTools"
+      ],
+      "projectTypes": [
+        "Single-page applications",
+        "Progressive web applications",
+        "Dashboard applications",
+        "E-commerce platforms",
+        "Real-time applications",
+        "Browser extensions"
+      ]
+    },
+    {
+      "id": "angular-developer",
+      "name": "Angular Developer",
+      "title": "Angular Framework",
+      "description": "Build enterprise-grade applications with Angular",
+      "difficulty": "Advanced",
+      "estimatedTime": "12-20 weeks",
+      "skillCategories": [
+        {
+          "name": "Angular Fundamentals",
+          "skills": [
+            "Components",
+            "Templates",
+            "Directives",
+            "Services"
+          ]
+        },
+        {
+          "name": "TypeScript Integration",
+          "skills": [
+            "Type Annotations",
+            "Interfaces",
+            "Decorators",
+            "Generics in Angular"
+          ]
+        },
+        {
+          "name": "Dependency Injection",
+          "skills": [
+            "Injector",
+            "Providers",
+            "Service Injection",
+            "Hierarchical Injectors"
+          ]
+        },
+        {
+          "name": "RxJS and Observables",
+          "skills": [
+            "Observables",
+            "Subjects",
+            "Operators",
+            "Hot vs Cold Observables",
+            "Error Handling"
+          ]
+        },
+        {
+          "name": "Forms",
+          "skills": [
+            "Template-driven Forms",
+            "Reactive Forms",
+            "Form Validation",
+            "Custom Validators"
+          ]
+        },
+        {
+          "name": "Routing",
+          "skills": [
+            "Router Configuration",
+            "Route Guards",
+            "Lazy Loading",
+            "Router Parameters"
+          ]
+        },
+        {
+          "name": "HTTP Communication",
+          "skills": [
+            "HttpClient",
+            "Interceptors",
+            "Error Handling",
+            "Request/Response Transformation"
+          ]
+        },
+        {
+          "name": "Change Detection",
+          "skills": [
+            "Change Detection Strategy",
+            "OnPush Strategy",
+            "Manual Change Detection",
+            "Performance Optimization"
+          ]
+        },
+        {
+          "name": "Testing",
+          "skills": [
+            "Jasmine",
+            "Karma",
+            "Unit Testing",
+            "Integration Testing",
+            "E2E Testing"
+          ]
+        },
+        {
+          "name": "Advanced Features",
+          "skills": [
+            "Pipes",
+            "Guards",
+            "Resolvers",
+            "Interceptors",
+            "Signals"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Angular Essentials",
+          "topics": [
+            "What is Angular?",
+            "Project Setup",
+            "CLI Overview",
+            "Project Structure",
+            "TypeScript in Angular"
+          ]
+        },
+        {
+          "stage": "2. Components and Templates",
+          "topics": [
+            "Components",
+            "Component Decorators",
+            "Templates",
+            "Data Binding (interpolation, property, event, two-way)",
+            "Directives (structural and attribute)"
+          ]
+        },
+        {
+          "stage": "3. Services and Dependency Injection",
+          "topics": [
+            "Creating Services",
+            "Dependency Injection",
+            "Providers",
+            "Service Scope",
+            "Singleton Services"
+          ]
+        },
+        {
+          "stage": "4. RxJS Fundamentals",
+          "topics": [
+            "Observables",
+            "Subjects and BehaviorSubjects",
+            "Operators (map, filter, tap, switchMap)",
+            "Async Pipe",
+            "Subscription Management"
+          ]
+        },
+        {
+          "stage": "5. Forms and Validation",
+          "topics": [
+            "Template-driven Forms",
+            "Reactive Forms",
+            "Form Controls and Groups",
+            "Built-in Validators",
+            "Custom Validators",
+            "Form Status"
+          ]
+        },
+        {
+          "stage": "6. Routing",
+          "topics": [
+            "Router Configuration",
+            "Route Parameters",
+            "Query Parameters",
+            "Route Guards (CanActivate, CanDeactivate)",
+            "Lazy Loading",
+            "Feature Modules"
+          ]
+        },
+        {
+          "stage": "7. HTTP and API Communication",
+          "topics": [
+            "HttpClient",
+            "HTTP Methods (GET, POST, PUT, DELETE)",
+            "HTTP Interceptors",
+            "Error Handling",
+            "Request Configuration"
+          ]
+        },
+        {
+          "stage": "8. Advanced Angular",
+          "topics": [
+            "Change Detection Strategies",
+            "Custom Pipes",
+            "Directives (Attribute and Structural)",
+            "Signals (Angular 16+)",
+            "Module System"
+          ]
+        },
+        {
+          "stage": "9. Testing",
+          "topics": [
+            "Unit Testing with Jasmine",
+            "Testing Components",
+            "Testing Services",
+            "Mocking",
+            "E2E Testing"
+          ]
+        },
+        {
+          "stage": "10. Performance and Production",
+          "topics": [
+            "AOT Compilation",
+            "Tree Shaking",
+            "Code Splitting",
+            "Production Build",
+            "Monitoring"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "Angular CLI",
+        "Reactive Forms",
+        "Router",
+        "HttpClient",
+        "Testing (Jasmine/Karma)",
+        "Angular Testing Library"
+      ],
+      "projectTypes": [
+        "Enterprise applications",
+        "Single-page applications",
+        "Real-time applications",
+        "Large-scale dashboards",
+        "Complex form-based applications",
+        "Progressive web applications"
+      ]
+    },
+    {
+      "id": "design-system-engineer",
+      "name": "Design System Engineer",
+      "title": "Design System Architecture",
+      "description": "Create and maintain scalable design systems for organizations",
+      "difficulty": "Advanced",
+      "estimatedTime": "12-20 weeks",
+      "skillCategories": [
+        {
+          "name": "Design Principles",
+          "skills": [
+            "Design Consistency",
+            "Scalability",
+            "Accessibility (a11y)",
+            "Design Tokens",
+            "Component Hierarchy"
+          ]
+        },
+        {
+          "name": "Component Architecture",
+          "skills": [
+            "Component Patterns",
+            "Composition Models",
+            "Props Design",
+            "Component States",
+            "Variant Management"
+          ]
+        },
+        {
+          "name": "Design Tools",
+          "skills": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "Design File Organization",
+            "Component Handoff"
+          ]
+        },
+        {
+          "name": "Frontend Implementation",
+          "skills": [
+            "Component Development",
+            "CSS Architecture",
+            "Theming Systems",
+            "CSS Variables",
+            "Responsive Components"
+          ]
+        },
+        {
+          "name": "Documentation",
+          "skills": [
+            "Component Documentation",
+            "Usage Guidelines",
+            "API Documentation",
+            "Interactive Documentation",
+            "Storybook"
+          ]
+        },
+        {
+          "name": "Accessibility (a11y)",
+          "skills": [
+            "WCAG Standards",
+            "ARIA Attributes",
+            "Keyboard Navigation",
+            "Color Contrast",
+            "Semantic HTML"
+          ]
+        },
+        {
+          "name": "Testing",
+          "skills": [
+            "Visual Testing",
+            "Regression Testing",
+            "Accessibility Testing",
+            "Cross-browser Testing",
+            "VRT Tools"
+          ]
+        },
+        {
+          "name": "Version Control and Releases",
+          "skills": [
+            "Semantic Versioning",
+            "Changelog Management",
+            "Release Process",
+            "Breaking Changes",
+            "Deprecation Strategies"
+          ]
+        },
+        {
+          "name": "Integration and Tooling",
+          "skills": [
+            "Package Publishing (npm)",
+            "Build Tools",
+            "CI/CD Pipelines",
+            "Monorepo Management",
+            "Dev Environment"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. Design System Fundamentals",
+          "topics": [
+            "What is a Design System?",
+            "Design System Goals",
+            "Benefits and ROI",
+            "Governance Model",
+            "Team Structure"
+          ]
+        },
+        {
+          "stage": "2. Design Principles and Patterns",
+          "topics": [
+            "Design Consistency",
+            "Atomic Design",
+            "Component Patterns",
+            "Design Tokens",
+            "Spacing, Typography, Colors"
+          ]
+        },
+        {
+          "stage": "3. Design Tool Mastery",
+          "topics": [
+            "Figma Components and Variants",
+            "Design Token Management",
+            "Design File Organization",
+            "Collaboration Features",
+            "Handoff to Development"
+          ]
+        },
+        {
+          "stage": "4. Component Architecture",
+          "topics": [
+            "Component Definition",
+            "Props and Slots",
+            "Component States",
+            "Accessibility in Components",
+            "Component Versioning"
+          ]
+        },
+        {
+          "stage": "5. Frontend Implementation",
+          "topics": [
+            "Framework Selection",
+            "Building Component Library",
+            "Styling Architecture (CSS/SCSS)",
+            "Theming Systems",
+            "Dark Mode Support"
+          ]
+        },
+        {
+          "stage": "6. Documentation and Storybook",
+          "topics": [
+            "Storybook Setup",
+            "Component Stories",
+            "Documentation Pages",
+            "Interactive Examples",
+            "Design/Code Sync"
+          ]
+        },
+        {
+          "stage": "7. Accessibility Standards",
+          "topics": [
+            "WCAG Guidelines",
+            "ARIA Implementation",
+            "Keyboard Support",
+            "Screen Reader Testing",
+            "Accessibility Automation"
+          ]
+        },
+        {
+          "stage": "8. Testing and Quality",
+          "topics": [
+            "Visual Regression Testing",
+            "Accessibility Testing (axe, Pa11y)",
+            "Component Testing",
+            "Cross-browser Testing",
+            "E2E Testing"
+          ]
+        },
+        {
+          "stage": "9. Distribution and Maintenance",
+          "topics": [
+            "Package Publishing",
+            "Version Management",
+            "Changelog",
+            "Release Notes",
+            "Deprecation Processes"
+          ]
+        },
+        {
+          "stage": "10. Governance and Evolution",
+          "topics": [
+            "Contribution Guidelines",
+            "Component Approval Process",
+            "Feedback Mechanisms",
+            "Growth Strategy",
+            "Adoption Tracking"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "Figma",
+        "Storybook",
+        "React/Vue/Angular Component Libraries",
+        "CSS/SASS Architecture",
+        "Design Tokens",
+        "npm/yarn",
+        "Git",
+        "Chromatic",
+        "Accessibility Testing Tools (axe, Pa11y)",
+        "Visual Testing Tools (Percy, Chromatic)"
+      ],
+      "projectTypes": [
+        "Enterprise design systems",
+        "Component libraries",
+        "Design tokens documentation",
+        "Brand guidelines platforms",
+        "Multi-product design systems",
+        "Open-source design systems"
+      ]
+    },
+    {
+      "id": "ux-designer",
+      "name": "UX Designer",
+      "title": "UX/User Experience Design",
+      "description": "Design user-centered digital products and experiences",
+      "difficulty": "Intermediate-Advanced",
+      "estimatedTime": "16-24 weeks",
+      "skillCategories": [
+        {
+          "name": "UX Fundamentals",
+          "skills": [
+            "User Research Methods",
+            "User Personas",
+            "User Journeys",
+            "Jobs to be Done",
+            "Design Thinking"
+          ]
+        },
+        {
+          "name": "Research and Analysis",
+          "skills": [
+            "Qualitative Research",
+            "Quantitative Analysis",
+            "User Interviews",
+            "Usability Testing",
+            "Analytics Interpretation"
+          ]
+        },
+        {
+          "name": "Information Architecture",
+          "skills": [
+            "Content Strategy",
+            "Navigation Design",
+            "Taxonomy Creation",
+            "Site Maps",
+            "Information Hierarchy"
+          ]
+        },
+        {
+          "name": "Interaction Design",
+          "skills": [
+            "Interaction Patterns",
+            "Microinteractions",
+            "User Flows",
+            "State Diagrams",
+            "Feedback Design"
+          ]
+        },
+        {
+          "name": "Wireframing and Prototyping",
+          "skills": [
+            "Low-fidelity Wireframes",
+            "Mid-fidelity Prototypes",
+            "High-fidelity Designs",
+            "Interactive Prototypes",
+            "Animation Design"
+          ]
+        },
+        {
+          "name": "Visual Design",
+          "skills": [
+            "Typography",
+            "Color Theory",
+            "Layout Design",
+            "Icon Design",
+            "Visual Hierarchy"
+          ]
+        },
+        {
+          "name": "Design Tools",
+          "skills": [
+            "Figma",
+            "Adobe XD",
+            "Sketch",
+            "Prototyping Tools",
+            "User Testing Platforms"
+          ]
+        },
+        {
+          "name": "Accessibility and Inclusive Design",
+          "skills": [
+            "WCAG Standards",
+            "Color Accessibility",
+            "Keyboard Navigation",
+            "Screen Reader Support",
+            "Inclusive Design Principles"
+          ]
+        },
+        {
+          "name": "Usability and Testing",
+          "skills": [
+            "Usability Testing",
+            "A/B Testing",
+            "Heatmaps and Analytics",
+            "User Feedback Collection",
+            "Iteration Based on Data"
+          ]
+        },
+        {
+          "name": "Collaboration and Communication",
+          "skills": [
+            "Stakeholder Management",
+            "Developer Communication",
+            "Design Handoff",
+            "Design Documentation",
+            "Design Critique"
+          ]
+        }
+      ],
+      "learningPath": [
+        {
+          "stage": "1. UX Fundamentals and Principles",
+          "topics": [
+            "What is UX Design?",
+            "User-Centered Design",
+            "Design Thinking Process",
+            "UX vs UI vs Interaction Design",
+            "Ethics in Design"
+          ]
+        },
+        {
+          "stage": "2. User Research Methods",
+          "topics": [
+            "Qualitative Research (interviews, observational studies)",
+            "Quantitative Research (surveys, analytics)",
+            "User Personas",
+            "Empathy Maps",
+            "User Journey Mapping"
+          ]
+        },
+        {
+          "stage": "3. Information Architecture",
+          "topics": [
+            "Content Strategy",
+            "Information Hierarchy",
+            "Site Maps and Task Flows",
+            "Navigation Patterns",
+            "Taxonomy Creation"
+          ]
+        },
+        {
+          "stage": "4. Wireframing and User Flows",
+          "topics": [
+            "Low-fidelity Sketching",
+            "Wireframing Tools",
+            "User Flow Diagrams",
+            "Storyboarding",
+            "Scenario Planning"
+          ]
+        },
+        {
+          "stage": "5. Visual Design Principles",
+          "topics": [
+            "Design Elements (typography, color, imagery)",
+            "Design Principles (balance, contrast, hierarchy)",
+            "Layout Systems",
+            "Grid Systems",
+            "Visual Hierarchy"
+          ]
+        },
+        {
+          "stage": "6. Prototyping and Interaction Design",
+          "topics": [
+            "Interaction Patterns",
+            "Microinteractions",
+            "Prototyping Tools (Figma, Adobe XD)",
+            "Animation Design",
+            "Interactive Prototypes"
+          ]
+        },
+        {
+          "stage": "7. Design Tool Mastery",
+          "topics": [
+            "Figma Fundamentals",
+            "Component Design",
+            "Prototyping Features",
+            "Collaboration Features",
+            "Design Plugins"
+          ]
+        },
+        {
+          "stage": "8. Accessibility and Inclusive Design",
+          "topics": [
+            "WCAG Guidelines",
+            "Accessible Color Design",
+            "Keyboard Navigation",
+            "Screen Reader Optimization",
+            "Inclusive Design Principles"
+          ]
+        },
+        {
+          "stage": "9. Usability Testing and Validation",
+          "topics": [
+            "Usability Testing Methods",
+            "A/B Testing",
+            "Heat Maps and Session Recording",
+            "Analytics Interpretation",
+            "User Feedback Loops"
+          ]
+        },
+        {
+          "stage": "10. Professional Practice",
+          "topics": [
+            "Design Documentation",
+            "Presentation Skills",
+            "Stakeholder Communication",
+            "Design Critique",
+            "Portfolio Building"
+          ]
+        }
+      ],
+      "keyTechnologies": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "Prototyping Tools (InVision, Adobe Prototype)",
+        "User Testing Platforms (UserTesting, Maze)",
+        "Analytics Tools (Google Analytics, Hotjar)",
+        "Research Tools (Dovetail, Condens)",
+        "Accessibility Tools (axe, WebAIM)"
+      ],
+      "projectTypes": [
+        "Web applications",
+        "Mobile applications",
+        "Cross-platform products",
+        "SaaS platforms",
+        "E-commerce experiences",
+        "Internal tools",
+        "Marketing websites"
+      ]
+    }
+  ],
+  "skillMapping": {
+    "frontendCore": [
+      "html-developer",
+      "css-developer",
+      "javascript-developer"
+    ],
+    "frontendEnhanced": [
+      "typescript-developer"
+    ],
+    "frontendFrameworks": [
+      "react-developer",
+      "nextjs-developer",
+      "vue-developer",
+      "angular-developer"
+    ],
+    "designAndUX": [
+      "design-system-engineer",
+      "ux-designer"
+    ]
+  },
+  "learningProgression": [
+    {
+      "level": "Beginner",
+      "roles": [
+        "html-developer",
+        "css-developer"
+      ],
+      "estimatedDuration": "4-8 weeks",
+      "prerequisites": "Basic computer literacy"
+    },
+    {
+      "level": "Intermediate",
+      "roles": [
+        "javascript-developer",
+        "typescript-developer",
+        "react-developer",
+        "vue-developer"
+      ],
+      "estimatedDuration": "8-16 weeks",
+      "prerequisites": "HTML, CSS, and JavaScript fundamentals"
+    },
+    {
+      "level": "Advanced",
+      "roles": [
+        "nextjs-developer",
+        "angular-developer",
+        "design-system-engineer",
+        "ux-designer"
+      ],
+      "estimatedDuration": "12-20+ weeks",
+      "prerequisites": "Framework/design fundamentals and professional experience"
+    }
+  ],
+  "commonTechnologiesAcrossRoles": {
+    "essential": [
+      "Git and Version Control",
+      "Package Managers (npm, yarn)",
+      "Build Tools (Webpack, Vite)",
+      "Developer Tools (DevTools, Linters, Formatters)",
+      "Testing Frameworks (Jest, Vitest)",
+      "REST APIs and HTTP",
+      "Responsive Design"
+    ],
+    "recommended": [
+      "Terminal/Command Line",
+      "Docker",
+      "CI/CD Pipelines",
+      "Web Performance Tools",
+      "Accessibility Tools",
+      "SEO Best Practices",
+      "Web Security Basics"
+    ],
+    "nice_to_have": [
+      "GraphQL",
+      "WebSockets",
+      "Web Components",
+      "Progressive Web Apps (PWA)",
+      "Serverless Functions",
+      "Cloud Platforms (AWS, Google Cloud, Azure)"
+    ]
+  },
+  "projectExamples": {
+    "html-css-javascript": [
+      "Personal portfolio website",
+      "Blog with dynamic comments",
+      "To-do list application",
+      "Weather app with API",
+      "Calculator with UI"
+    ],
+    "typescript": [
+      "Typed utility libraries",
+      "Strict API client",
+      "Complex data transformation pipeline",
+      "Game with type safety"
+    ],
+    "react": [
+      "Social media dashboard",
+      "Real-time chat application",
+      "Photo gallery with filters",
+      "E-commerce product page",
+      "Notes application with local storage"
+    ],
+    "nextjs": [
+      "Full-stack blog platform",
+      "SaaS subscription service",
+      "Marketplace with authentication",
+      "Documentation website",
+      "Real-time collaborative tool"
+    ],
+    "vue": [
+      "Interactive form application",
+      "Music player interface",
+      "Project management dashboard",
+      "Real-time notification system"
+    ],
+    "angular": [
+      "Enterprise management system",
+      "Financial dashboard",
+      "Large-scale SPA with routing",
+      "Complex form-based application"
+    ],
+    "designSystem": [
+      "Internal component library",
+      "Design token system",
+      "Comprehensive UI kit",
+      "Brand guidelines platform"
+    ],
+    "uxDesign": [
+      "User research and personas",
+      "Wireframes and prototypes",
+      "Usability testing reports",
+      "Design system documentation"
+    ]
+  }
+}
