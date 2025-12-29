@@ -1,7 +1,6 @@
 # AI/ML & Data Science Career Roadmaps - Complete Documentation
 
 ## Overview
-This comprehensive documentation provides detailed learning paths for 10 AI/ML and Data Science roles, extracted from the developer-roadmap repository and enhanced with detailed learning stages and industry best practices.
 
 ## Files Included
 
@@ -308,10 +307,7 @@ AI Red Teaming (optional)
 
 ---
 
-## Additional Resources from Developer-Roadmap
 
-These roadmaps are adapted from the **developer-roadmap** project:
-- GitHub: https://github.com/kamranahmedse/developer-roadmap
 - Website: https://roadmap.sh
 - Stars: 344K+
 - Contributors: 1400+
@@ -334,7 +330,6 @@ These roadmaps are adapted from the **developer-roadmap** project:
 
 This documentation is maintained based on:
 - Industry best practices (2025)
-- Developer-roadmap community standards
 - Latest technology trends
 - Career market data
 - Community feedback

@@ -1,3 +1,9 @@
+---
+name: learn
+description: Learning Path Selector
+allowed-tools: Read
+---
+
 # Learning Path Selector
 
 Start your learning journey with the Developer Roadmap plugin!

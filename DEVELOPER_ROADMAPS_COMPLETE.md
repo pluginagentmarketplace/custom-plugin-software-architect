@@ -1,7 +1,6 @@
 # Developer Roadmap: Complete Structure Extraction
 ## Fundamentals & Career Development Paths
 
-**Source:** kamranahmedse/developer-roadmap (GitHub)  
 **Date:** 2025  
 **Total Roadmaps Extracted:** 9 (3 Fundamentals + 3 Career Paths + 3 Programming Languages)
 
@@ -1078,7 +1077,6 @@ Programming Language → Engineering Skills → Technical Lead → Engineering M
 ## Resource Links
 
 - **Official Site:** https://roadmap.sh
-- **GitHub Repository:** https://github.com/kamranahmedse/developer-roadmap
 - **Individual Roadmaps:**
   - Computer Science: https://roadmap.sh/computer-science
   - Data Structures: https://roadmap.sh/data-structures-and-algorithms
@@ -1094,4 +1092,3 @@ Programming Language → Engineering Skills → Technical Lead → Engineering M
 
 **Document Version:** 1.0  
 **Last Updated:** 2025  
-**Source:** developer-roadmap (kamranahmedse/developer-roadmap on GitHub)

@@ -2,7 +2,6 @@
 
 ## Project Summary
 
-This directory contains a comprehensive extraction of backend development roadmaps from the developer-roadmap repository. The extraction provides structured skill organization for 10 distinct backend development roles with detailed categorization across 7 core skill categories.
 
 ---
 
@@ -414,7 +413,6 @@ For specific information:
 
 - **Extraction Version:** 1.0
 - **Generated:** November 18, 2024
-- **Source:** developer-roadmap (kamranahmedse/developer-roadmap)
 - **Total Coverage:** 1,073 topics, 10 roles, 7 categories
 - **Status:** Complete and production-ready
 
@@ -422,10 +420,8 @@ For specific information:
 
 ## License & Attribution
 
-This extraction is based on the developer-roadmap project by kamranahmedse.
 All content is structured for use in the custom-plugin-software-architect project.
 
-Source: https://github.com/kamranahmedse/developer-roadmap
 
 ---
 

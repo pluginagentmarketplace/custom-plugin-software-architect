@@ -994,4 +994,4 @@ Entry Level → Mid Level → Senior → Lead/Principal → Management
 ---
 
 *Last Updated: November 2025*
-*Based on developer-roadmap.sh and industry best practices*
+*

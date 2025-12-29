@@ -2,7 +2,6 @@
 
 ## Overview
 
-This document provides an index to all extracted roadmap information from the developer-roadmap repository. The extraction includes 9 complete roadmaps covering fundamentals, career development, and programming languages.
 
 ---
 
@@ -274,11 +273,9 @@ Each roadmap in the complete document includes:
 
 ### Official Resources
 - **Website:** https://roadmap.sh
-- **GitHub:** https://github.com/kamranahmedse/developer-roadmap
 - **Community:** 2.1M+ users, 42K Discord members
 
 ### Related Roadmaps (Not in this extraction)
-The developer-roadmap repository contains 60+ additional roadmaps including:
 - Frontend/Backend development
 - DevOps and Infrastructure
 - Mobile development (React Native, Flutter)
@@ -292,7 +289,6 @@ The developer-roadmap repository contains 60+ additional roadmaps including:
 
 - **Version:** 1.0
 - **Last Updated:** November 2025
-- **Source:** kamranahmedse/developer-roadmap on GitHub
 - **Extraction Method:** GitHub API + markdown content parsing
 - **Coverage:** Complete extraction of 9 major roadmaps
 - **Accuracy:** Based on official roadmap.sh content as of November 2025

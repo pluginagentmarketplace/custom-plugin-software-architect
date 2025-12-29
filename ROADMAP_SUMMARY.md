@@ -2,7 +2,6 @@
 
 ## Document Overview
 
-This package contains comprehensive extracted roadmap data from the **developer-roadmap** repository (kamranahmedse/developer-roadmap on GitHub).
 
 ### Files Included
 
@@ -207,7 +206,6 @@ Programming Language → Engineering Skills → Tech Lead → Engineering Manage
 ## Additional Resources
 
 - **Official Site:** https://roadmap.sh
-- **GitHub Repository:** https://github.com/kamranahmedse/developer-roadmap
 - **Community:** 2.1M+ registered users, 42K Discord members
 - **Content:** 224K GitHub stars, 1,431+ contributors
 
@@ -217,7 +215,6 @@ Programming Language → Engineering Skills → Tech Lead → Engineering Manage
 
 - **Version:** 1.0
 - **Created:** November 2025
-- **Source:** kamranahmedse/developer-roadmap (GitHub)
 - **Extraction Method:** Direct API access + markdown content parsing
 - **Completeness:** Full extraction of 9 major roadmaps with 1,100+ topics
 

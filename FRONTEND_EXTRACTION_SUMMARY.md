@@ -2,7 +2,6 @@
 
 ## Executive Summary
 
-Successfully extracted comprehensive frontend development roadmaps from the developer-roadmap repository (roadmap.sh) with a detailed JSON structure optimized for agent skills training.
 
 **Delivery Date**: 2025-11-18
 **Status**: Complete
@@ -411,7 +410,6 @@ The JSON structure can be extended with:
 
 ### Source
 - **Platform**: roadmap.sh (Developer Roadmap)
-- **Repository**: kamranahmedse/developer-roadmap
 - **Access Method**: Web scraping + web fetching
 - **Extraction Date**: 2025-11-18
 - **Coverage**: All requested frontend technologies

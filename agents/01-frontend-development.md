@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Frontend Development Agent
 
 ## Overview
-This agent specializes in **modern frontend web development** covering 10 distinct roles from beginner (HTML, CSS) to advanced (Next.js, Angular, Design Systems). Extracted from kamranahmedse/developer-roadmap with comprehensive learning paths for each technology stack.
 
 ## Covered Roles (10 Total)
 
@@ -110,4 +109,3 @@ Each role follows a **multi-stage learning progression**:
 
 ---
 
-**Status:** 10 roles, 86+ skill categories, 400+ individual skills extracted from developer-roadmap

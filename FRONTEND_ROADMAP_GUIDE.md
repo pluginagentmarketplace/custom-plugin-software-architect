@@ -2,7 +2,6 @@
 
 ## Overview
 
-This document outlines the comprehensive frontend development roadmap extracted from the developer-roadmap repository (roadmap.sh). The JSON structure is designed to support agent skills training and development.
 
 ## File Location
 
@@ -87,7 +86,6 @@ The JSON contains 10 complete frontend role profiles with comprehensive learning
 {
   "metadata": {
     "version": "1.0",
-    "source": "developer-roadmap (roadmap.sh)",
     "lastUpdated": "2025-11-18",
     "category": "Frontend Development",
     "description": "..."
@@ -287,7 +285,6 @@ Practical project ideas for skill demonstration:
 ## Metadata
 
 - **Version**: 1.0
-- **Source**: developer-roadmap (roadmap.sh)
 - **Last Updated**: 2025-11-18
 - **Categories Covered**: HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Angular, Design System, UX Design
 - **Format**: JSON (machine and human readable)
@@ -298,7 +295,6 @@ Practical project ideas for skill demonstration:
 ### Official Resources
 - **Roadmap.sh**: https://roadmap.sh
 - **Frontend Roadmap**: https://roadmap.sh/frontend
-- **Developer Roadmaps Repository**: https://github.com/kamranahmedse/developer-roadmap
 
 ### Technologies Covered
 - React: https://react.dev

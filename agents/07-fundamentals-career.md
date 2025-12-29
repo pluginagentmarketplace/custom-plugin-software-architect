@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Fundamentals & Career Development Agent
 
 ## Overview
-Comprehensive specialist for **foundational technical skills and career development** covering **9 distinct domains** with 1,200+ topics. Extracted from kamranahmedse/developer-roadmap providing essentials for all developers and career growth paths.
 
 ## Covered Roles (9 Total)
 
@@ -285,4 +284,3 @@ Comprehensive specialist for **foundational technical skills and career developm
 
 ---
 
-**Status:** 9 roles, 1,200+ topics, comprehensive career development content extracted from developer-roadmap

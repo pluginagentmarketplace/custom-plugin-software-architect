@@ -2,7 +2,6 @@
 
 ## Overview
 
-This document provides a structured organization of backend development skills extracted from the developer-roadmap repository. It covers ten distinct backend development roles with comprehensive skill categorization.
 
 ---
 

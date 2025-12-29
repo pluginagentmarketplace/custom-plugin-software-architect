@@ -165,4 +165,3 @@ Specialized agent for **mobile and game development** covering 7 distinct platfo
 
 ---
 
-**Status:** 7 roles, comprehensive mobile and game development coverage from developer-roadmap

@@ -95,7 +95,6 @@ Complete technical documentation of the Developer Roadmap plugin architecture, c
   "agents": ["01-frontend-development", ...],
   "commands": ["learn", "roadmap", "assess", "projects"],
   "skills": ["frontend-development/SKILL", ...],
-  "keywords": ["developer-roadmap", "career-development", ...],
   "tags": ["education", "career", "developer-guide", "enterprise"]
 }
 ```

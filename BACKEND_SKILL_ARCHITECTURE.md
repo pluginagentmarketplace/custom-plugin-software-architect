@@ -2,7 +2,6 @@
 
 ## Document Overview
 
-This document provides a detailed organizational structure for backend development skills extracted from the developer-roadmap repository. It serves as a comprehensive reference for the custom-plugin-software-architect to organize and recommend backend development competencies.
 
 ---
 
@@ -1267,4 +1266,3 @@ Regular updates to this architecture are recommended as the technology landscape
 
 **Document Version:** 1.0  
 **Last Updated:** 2024  
-**Source:** Extracted from developer-roadmap repository

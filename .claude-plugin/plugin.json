@@ -1,5 +1,5 @@
 {
-  "name": "Developer Roadmap Software Architect",
+  "name": "software-architect-assistant",
   "description": "Comprehensive plugin organizing 65+ developer roles from kamranahmedse/developer-roadmap with 7 specialized agents covering frontend, backend, mobile, data science, infrastructure, databases, and fundamentals/career development. Each agent includes detailed skills, learning paths, and project examples.",
   "version": "1.0.0",
   "author": "Custom Plugin Marketplace",
@@ -38,5 +38,11 @@
     "software-architecture",
     "training"
   ],
-  "tags": ["education", "career", "developer-guide", "enterprise"]
+  "tags": [
+    "education",
+    "career",
+    "developer-guide",
+    "enterprise"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
 }

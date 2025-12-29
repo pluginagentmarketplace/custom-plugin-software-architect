@@ -244,7 +244,6 @@ No deprecated features in v1.0.0.
 
 - **Main Developer:** Custom Plugin Team
 - **Architecture:** Enterprise-grade design principles
-- **Content:** Extracted from kamranahmedse/developer-roadmap
 - **Testing:** Community beta testers
 - **Documentation:** Complete and comprehensive
 
@@ -252,7 +251,6 @@ No deprecated features in v1.0.0.
 
 ## Acknowledgments
 
-- **kamranahmedse** - Original developer-roadmap project
 - **Claude Code Community** - Inspiration and feedback
 - **Anthropic** - Claude Code platform
 

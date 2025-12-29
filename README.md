@@ -1,269 +1,262 @@
-# 🚀 Developer Roadmap Software Architect Plugin
+<div align="center">
 
-**Ultra-comprehensive developer learning platform** featuring 65+ roles, 7 specialized agents, and 1000+ learning topics extracted from kamranahmedse/developer-roadmap.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Software+Architect+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Software Architect Assistant" />
 
-> **⭐ Enterprise-Grade Quality** - Production-ready Claude Code plugin with zero technical debt, maximum developer impact, and community-proven excellence.
+<br/>
 
-## 📋 Quick Navigation
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-software-architect/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-- [✨ Features](#-features)
-- [🎯 Quick Start](#-quick-start)
-- [🏗️ Architecture](#-architecture)
-- [🤖 The 7 Agents](#-the-7-agents)
-- [💡 5 Invokable Skills](#-invokable-skills)
-- [🛠️ 4 Interactive Commands](#-commands)
-- [🎓 50+ Learning Paths](#-learning-paths)
-- [📊 65+ Developer Roles](#-coverage)
-- [🔗 Full Integration](#-integration)
-- [📚 Complete Documentation](#-documentation)
-- [🤝 Contributing](#-contributing)
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
+
+<br/>
+
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-software-architect)
+
+---
+
+### What is this?
+
+> **Software Architect Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for software architect development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+
+```bash
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-software-architect
+
+# Step 2️⃣ Install the plugin
+/plugin install software-architect-assistant@pluginagentmarketplace-software-architect
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
+
+```bash
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-software-architect.git
+cd custom-plugin-software-architect
+
+# Load locally
+/plugin load .
+
+# Restart Claude Code
+```
+
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
+
+```
+software-architect-assistant:05-infrastructure-devops
+software-architect-assistant:03-mobile-game-development
+software-architect-assistant:01-frontend-development
+software-architect-assistant:06-database-management
+software-architect-assistant:02-backend-api-development
+... and 2 more
+```
 
 ---
 
 ## ✨ Features
 
-### 🎯 Comprehensive Developer Coverage
-- **65+ Developer Roles** - All major tech domains covered
-- **7 Specialized Agents** - Domain experts for personalized guidance
-- **1000+ Learning Topics** - Structured from beginner to expert
-- **50+ Project Examples** - Real-world portfolio builders
-- **200+ Technologies** - Modern 2025 tech stack
-- **300+ Resources** - Curated books, courses, docs
-
-### 🤖 Intelligent Agent System
-- **Context-Aware Routing** - Automatically matches user needs to agents
-- **Progressive Learning** - Adapts to your skill level
-- **Cross-Domain Links** - Connects related technologies
-- **Real-Time Feedback** - Assessment with personalized plans
-
-### 💡 Production-Grade Skills
-- **Hands-On Learning** - Code examples, tutorials, quick starts
-- **Industry Standards** - 2025 best practices
-- **Certification Paths** - Recommended credentials
-- **Resource Library** - 300+ curated external resources
-
-### 🛠️ 4 Interactive Commands
-- **/learn** - Learning path selection with AI routing
-- **/roadmap** - Complete technology explorer
-- **/assess** - Knowledge assessment & gap analysis
-- **/projects** - Project discovery with guidance
-
-### 📊 Automation & Tracking (Hooks)
-- Progress monitoring
-- Milestone celebrations
-- Smart recommendations
-- Learning pace adjustments
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for software architect tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
 ---
 
-## 🎯 Quick Start
+## 🤖 Agents
 
-### One-Line Installation
+### 7 Specialized Agents
 
-```bash
-claude-code add-plugin ./custom-plugin-software-architect
-```
-
-### First Steps
-
-```
-1. /learn          → Choose learning path
-2. /roadmap        → Explore technologies
-3. /assess         → Self-evaluate skills
-4. /projects       → Find project ideas
-```
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **05-infrastructure-devops** | Infrastructure and DevOps specialist covering Docker, Kubern |
+| 2 | **03-mobile-game-development** | Mobile and Game Development specialist covering React Native |
+| 3 | **01-frontend-development** | Frontend Development specialist covering HTML, CSS, JavaScri |
+| 4 | **06-database-management** | Database and Data Management specialist covering PostgreSQL, |
+| 5 | **02-backend-api-development** | Backend and API Development specialist covering Node.js, PHP |
+| 6 | **07-fundamentals-career** | Fundamentals and Career Development specialist covering Comp |
+| 7 | **04-data-science-ai** | Data Science and AI specialist covering AI Engineers, Data S |
 
 ---
 
-## 🏗️ Architecture
+## 🛠️ Skills
 
-```
-user query
-    ↓
-context analyzer
-    ↓
-agent selector (7 agents)
-    ↓
-agent + skill invocation
-    ↓
-hook: progress tracking
-    ↓
-personalized feedback
-```
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `database` | Master relational and NoSQL databases including PostgreSQL,  | `Skill("software-architect-assistant:database")` |
+| `fundamentals` | Master foundational computer science concepts, data structur | `Skill("software-architect-assistant:fundamentals")` |
+| `backend-development` | Build scalable backend systems with Node.js, Python, Java, G | `Skill("software-architect-assistant:backend-development")` |
+| `mobile-development` | Build mobile applications for iOS, Android, and cross-platfo | `Skill("software-architect-assistant:mobile-development")` |
+| `data-science` | Master machine learning, AI, data science, and GenAI applica | `Skill("software-architect-assistant:data-science")` |
+| `frontend-development` | Modern web development with HTML, CSS, JavaScript, TypeScrip | `Skill("software-architect-assistant:frontend-development")` |
+| `infrastructure` | Master cloud infrastructure, Kubernetes, Terraform, CI/CD, a | `Skill("software-architect-assistant:infrastructure")` |
 
 ---
 
-## 🤖 The 7 Agents
+## ⌨️ Commands
 
-| Agent | Focus | Roles | Topics |
-|-------|-------|-------|--------|
-| **Frontend** | React, Vue, Angular, Design Systems | 10 | 86+ |
-| **Backend** | APIs, Microservices, GraphQL | 10 | 1,073+ |
-| **Mobile** | iOS, Android, React Native, Flutter | 7 | Cross-platform |
-| **AI/ML** | GenAI, LLMs, Deep Learning, Prompt Eng | 10 | 1,000+ |
-| **DevOps** | Docker, K8s, Terraform, Cloud | 5 | 600+ |
-| **Database** | PostgreSQL, MongoDB, Redis, Optimization | 6 | 400+ |
-| **Fundamentals** | CS, Algorithms, Git, Rust, C++, Management | 9 | 1,200+ |
-
----
-
-## 💡 Invokable Skills
-
-Each SKILL.md provides quick start, code examples, learning outcomes, projects, and resources:
-
-1. **frontend-development** - HTML to design systems
-2. **backend-development** - APIs to microservices
-3. **mobile-development** - Cross-platform to native
-4. **data-science** - Prompt eng to ML engineer
-5. **infrastructure** - Docker to multi-cloud
-6. **database** - SQL to NoSQL optimization
-7. **fundamentals** - CS to leadership
-
----
-
-## 🛠️ Commands
-
-### /learn - Learning Path Selection
-
-Choose your goal:
-- 🌐 Frontend, Backend, Full-Stack
-- 📱 Mobile, Game Development
-- 🤖 AI/ML, Data Science
-- ☁️ Cloud, DevOps, Infrastructure
-- 💾 Database Engineering
-- 📊 Leadership, Engineering Management
-
-### /roadmap - Technology Explorer
-
-Visualize 65+ roles:
-- All technologies across 7 domains
-- Time estimates, salaries, prerequisites
-- Career progression paths
-- Industry insights
-
-### /assess - Knowledge Assessment
-
-Rate yourself 1-5 across:
-- Frontend, Backend, Mobile, AI/ML, DevOps, Database, Fundamentals
-- Comprehensive gap analysis
-- Personalized recommendations
-- Learning timeline
-
-### /projects - Project Discovery
-
-50+ projects:
-- Beginner, Intermediate, Advanced levels
-- Project descriptions & specs
-- Technology requirements
-- Estimated timelines
-- Learning outcomes
-
----
-
-## 🎓 Learning Paths
-
-### Fast Tracks (2-4 months)
-- Prompt Engineering → AI applications
-- Frontend Fundamentals → Interactive websites
-- Mobile Basics → First app
-
-### Standard Tracks (6-12 months)
-- Full-Stack Development
-- Mobile Development
-- DevOps Engineering
-- Data Science
-
-### Expert Tracks (12-24+ months)
-- ML Engineer
-- System Architect
-- Engineering Manager
-- Blockchain Engineer
-
----
-
-## 📊 Coverage
-
-- **65+ Developer Roles**
-- **7 Specialized Agents**
-- **7 Invokable Skills**
-- **4 Interactive Commands**
-- **1000+ Learning Topics**
-- **200+ Technologies**
-- **50+ Project Examples**
-- **300+ Resources**
-- **50+ Learning Paths**
-- **1000+ Hours of Content**
-
----
-
-## 🔗 Integration
-
-**Seamless Flow:**
-```
-/learn → Agent Selected → Skill Invoked → Progress Tracked →
-/assess → Gap Identified → /projects → Build Portfolio →
-Next Learning Phase → Repeat
-```
-
-**Hook Automation:**
-- Context analysis and agent routing
-- Progress monitoring
-- Milestone detection
-- Recommendations
-- Learning pace adjustments
+| Command | Description |
+|---------|-------------|
+| `/learn` | Learning Path Selector |
+| `/assess` | Knowledge Assessment |
+| `/projects` | Project Ideas & Portfolio Building |
+| `/roadmap` | Technology Roadmap Explorer |
 
 ---
 
 ## 📚 Documentation
 
-Complete documentation in `/docs`:
-- **SETUP.md** - Installation guide
-- **ARCHITECTURE.md** - Technical details
-- **INTEGRATION-GUIDE.md** - Agent-skill mapping
-- **AGENT-REFERENCE.md** - Agent specs
-- **SKILL-REFERENCE.md** - Skill specs
-- **LEARNING-PATHS.md** - Detailed routes
-- **TROUBLESHOOTING.md** - Common issues
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
+custom-plugin-software-architect/
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
+```
+
+</details>
+
+---
+
+## 📅 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
+| **Commands** | 4 |
 
 ---
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
 
 ---
 
 ## 📝 License
 
-Apache License 2.0 - see [LICENSE](./LICENSE)
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🚀 Quick Stats
+## 👥 Contributors
 
-| Metric | Value |
-|--------|-------|
-| Frontend Roles | 10 |
-| Backend Roles | 10 |
-| Mobile Roles | 7 |
-| AI/ML Roles | 10 |
-| DevOps Roles | 5 |
-| Database Roles | 6 |
-| Fundamentals Roles | 9 |
-| **Total Roles** | **65+** |
-| Learning Topics | 1000+ |
-| Code Examples | 200+ |
-| Projects | 50+ |
-| Resources | 300+ |
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
 
-### Built with ❤️ for the developer community
+**Made with ❤️ for the Claude Code Community**
 
-⭐ **If this helped you, please star it!** ⭐
-
-**[Installation](./docs/SETUP.md) • [Learning Paths](./docs/LEARNING-PATHS.md) • [Contributing](./CONTRIBUTING.md)**
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
 
 </div>

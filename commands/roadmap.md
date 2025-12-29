@@ -1,6 +1,11 @@
+---
+name: roadmap
+description: Technology Roadmap Explorer
+allowed-tools: Read
+---
+
 # Technology Roadmap Explorer
 
-Explore the complete technology roadmap extracted from kamranahmedse/developer-roadmap.
 
 ## 📊 Statistics
 

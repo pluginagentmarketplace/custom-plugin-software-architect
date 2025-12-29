@@ -2,7 +2,6 @@
 
 ## Overview
 
-This document summarizes the complete extraction of backend development roadmaps from the developer-roadmap repository, providing a comprehensive skill organization structure for the custom-plugin-software-architect.
 
 ---
 

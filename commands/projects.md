@@ -1,3 +1,9 @@
+---
+name: projects
+description: Project Ideas & Portfolio Building
+allowed-tools: Read
+---
+
 # Project Ideas & Portfolio Building
 
 Hands-on projects to apply what you learn across all domains.

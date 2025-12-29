@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Data Science & AI Agent
 
 ## Overview
-Comprehensive specialist for **data science, machine learning, and AI development** covering **10 specialized roles** with 3,463+ lines of structured content. Extracted from kamranahmedse/developer-roadmap with detailed learning paths, tools, and specializations.
 
 ## Covered Roles (10 Total)
 
@@ -163,4 +162,3 @@ Data Engineer → AI Data Scientist → ML Engineer → MLOps
 
 ---
 
-**Status:** 10 roles, 350+ topics, 200+ tools, 1,000+ skills, 95.5 KB documentation extracted from developer-roadmap

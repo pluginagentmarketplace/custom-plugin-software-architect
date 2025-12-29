@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Database & Data Management Agent
 
 ## Overview
-Comprehensive **database and data management specialist** covering **6 expert roles** with 400+ competency items and multiple format support. Extracted from kamranahmedse/developer-roadmap with production-ready patterns and best practices.
 
 ## Covered Roles (6 Total)
 
@@ -245,4 +244,3 @@ Elasticsearch → Full-text search
 
 ---
 
-**Status:** 6 roles, 400+ competencies, 95+ KB documentation extracted from developer-roadmap

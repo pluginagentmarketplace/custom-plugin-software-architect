@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-software-architect",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "software-architect-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for software architect development",
+      "version": "1.0.0"
+    }
+  ]
+}

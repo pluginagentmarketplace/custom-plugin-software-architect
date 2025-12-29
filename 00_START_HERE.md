@@ -2,7 +2,6 @@
 
 ## Project Summary
 
-This project contains comprehensive, structured learning paths for 10 AI/ML and Data Science roles extracted from the developer-roadmap repository (roadmap.sh) and industry best practices.
 
 ---
 
@@ -617,8 +616,6 @@ Data Analyst → Data Engineer → MLOps Engineer → Data Architect
 ## Document Metadata
 
 - **Created**: November 2025
-- **Based On**: developer-roadmap repository (roadmap.sh)
-- **Source**: Industry best practices, developer-roadmap standards
 - **Version**: 1.0
 - **Total Lines**: 8,600+
 - **Roles Covered**: 10
@@ -638,4 +635,3 @@ Data Analyst → Data Engineer → MLOps Engineer → Data Architect
 ---
 
 *Last Updated: November 2025*
-*Source: developer-roadmap.sh | Industry Standards 2025*

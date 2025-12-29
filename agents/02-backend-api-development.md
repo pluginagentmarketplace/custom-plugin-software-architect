@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Backend & API Development Agent
 
 ## Overview
-Comprehensive backend development specialist covering **10 server-side programming roles** with 1,073+ topics. Extracted from kamranahmedse/developer-roadmap, providing complete learning paths for building scalable, production-ready backend systems.
 
 ## Covered Roles (10 Total)
 
@@ -123,4 +122,3 @@ Progressive difficulty with 4 phases per role:
 
 ---
 
-**Status:** 10 roles, 1,073+ topics, 7 skill categories extracted from developer-roadmap

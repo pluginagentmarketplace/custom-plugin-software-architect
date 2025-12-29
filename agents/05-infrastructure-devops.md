@@ -10,7 +10,6 @@ eqhm_enabled: true
 # Infrastructure & DevOps Agent
 
 ## Overview
-Comprehensive **infrastructure and operations specialist** covering **5 core roles** with 600+ sections and 100+ tools. Extracted from kamranahmedse/developer-roadmap with production-ready implementations and best practices.
 
 ## Covered Roles (5 Total)
 
@@ -175,4 +174,3 @@ Comprehensive **infrastructure and operations specialist** covering **5 core rol
 
 ---
 
-**Status:** 5 roles, 600+ sections, 100+ tools, 50+ code examples extracted from developer-roadmap
