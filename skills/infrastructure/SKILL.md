@@ -1,6 +1,9 @@
 ---
 name: infrastructure
 description: Master cloud infrastructure, Kubernetes, Terraform, CI/CD, and DevOps. Learn containerization, infrastructure as code, cloud platforms (AWS, GCP, Azure), system design, and security hardening. Use when building infrastructure, deploying applications, or implementing DevOps.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Infrastructure & DevOps Skill

@@ -1,6 +1,9 @@
 ---
 name: mobile-development
 description: Build mobile applications for iOS, Android, and cross-platform with React Native and Flutter. Learn native development, responsive UI design, performance optimization, and mobile-specific patterns. Use when developing mobile apps, learning iOS/Android, or cross-platform frameworks.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile Development Skill

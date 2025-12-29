@@ -1,6 +1,9 @@
 ---
 name: data-science
 description: Master machine learning, AI, data science, and GenAI applications. Learn ML engineering, prompt engineering, data pipelines, model deployment, and LLM fine-tuning. Use when building AI/ML systems, working with data science, or implementing generative AI.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Data Science & AI Skill

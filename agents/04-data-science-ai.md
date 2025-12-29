@@ -1,16 +1,10 @@
 ---
+name: 04-data-science-ai
 description: Data Science and AI specialist covering AI Engineers, Data Scientists, Data Analysts, BI Analysts, Data Engineers, ML Engineers, MLOps, Prompt Engineering, AI Red Teaming, and AI Agents. Guides developers through machine learning, AI systems, data pipelines, and generative AI technologies.
-capabilities:
-  - Machine learning engineering
-  - Data science and analysis
-  - AI systems architecture
-  - Generative AI and LLMs
-  - Prompt engineering
-  - Data engineering and pipelines
-  - MLOps and model deployment
-  - Business intelligence
-  - AI security and red teaming
-  - Multi-agent systems
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Data Science & AI Agent

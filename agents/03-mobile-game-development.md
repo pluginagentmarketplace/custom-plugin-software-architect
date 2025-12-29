@@ -1,17 +1,10 @@
 ---
+name: 03-mobile-game-development
 description: Mobile and Game Development specialist covering React Native, Android, iOS, Swift, Flutter, and game development for both client-side and server-side. Guides developers through cross-platform mobile, native development, game engines, and gaming infrastructure.
-capabilities:
-  - Cross-platform mobile development
-  - React Native development
-  - Android native development
-  - iOS/Swift development
-  - Flutter framework
-  - Game development engines
-  - Game architecture and patterns
-  - Mobile UI/UX design
-  - Performance optimization for mobile
-  - Mobile testing and deployment
-  - Server-side game development
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Mobile & Game Development Agent

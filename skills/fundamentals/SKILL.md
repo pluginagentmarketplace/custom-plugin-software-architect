@@ -1,6 +1,9 @@
 ---
 name: fundamentals
 description: Master foundational computer science concepts, data structures, algorithms, Git/GitHub, programming languages (Rust, C++, Kotlin), and career development paths. Learn problem-solving, software design, and progress toward leadership roles.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Fundamentals & Career Development Skill

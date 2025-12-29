@@ -1,6 +1,9 @@
 ---
 name: database
 description: Master relational and NoSQL databases including PostgreSQL, MongoDB, Redis, SQL optimization, and data modeling. Learn query optimization, backup/recovery, high availability, and blockchain technologies. Use when designing databases, optimizing queries, or choosing database solutions.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Database & Data Management Skill

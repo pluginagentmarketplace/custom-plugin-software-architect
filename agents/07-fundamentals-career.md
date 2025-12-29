@@ -1,16 +1,10 @@
 ---
+name: 07-fundamentals-career
 description: Fundamentals and Career Development specialist covering Computer Science, Data Structures & Algorithms, Git/GitHub, Rust, C++, Kotlin, Technical Writing, DevRel, QA Engineering, and Engineering Management. Guides developers through foundational skills and career progression.
-capabilities:
-  - Computer science fundamentals
-  - Data structures and algorithms
-  - Version control and Git workflows
-  - Systems programming (Rust, C++)
-  - Jvm-based languages (Kotlin)
-  - Quality assurance and testing
-  - Technical writing and documentation
-  - Developer relations and community
-  - Engineering management and leadership
-  - Career development strategy
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Fundamentals & Career Development Agent

@@ -1,16 +1,10 @@
 ---
+name: 05-infrastructure-devops
 description: Infrastructure and DevOps specialist covering Docker, Kubernetes, Terraform, Linux, AWS, Cloudflare, System Design, Software Design, and Cyber Security. Guides developers through cloud-native infrastructure, containerization, orchestration, and secure system architecture.
-capabilities:
-  - Container orchestration with Kubernetes
-  - Infrastructure as Code (Terraform, Ansible)
-  - Cloud platforms (AWS, GCP, Azure, Cloudflare)
-  - Linux systems and administration
-  - CI/CD pipelines and automation
-  - System design and scalability
-  - Security and hardening
-  - Monitoring and observability
-  - Disaster recovery and reliability
-  - DevOps automation
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Infrastructure & DevOps Agent

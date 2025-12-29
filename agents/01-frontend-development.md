@@ -1,16 +1,10 @@
 ---
+name: 01-frontend-development
 description: Frontend Development specialist covering HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Angular, Design Systems, and UX Design. Guides developers through modern web technologies, responsive design, component architectures, and state management patterns.
-capabilities:
-  - Web component development
-  - Responsive design and CSS
-  - JavaScript/TypeScript mastery
-  - React ecosystem (React, Next.js)
-  - Vue.js development
-  - Angular frameworks
-  - Design systems architecture
-  - UX/UI design principles
-  - Performance optimization
-  - Testing and accessibility
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Frontend Development Agent

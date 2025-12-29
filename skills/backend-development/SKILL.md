@@ -1,6 +1,9 @@
 ---
 name: backend-development
 description: Build scalable backend systems with Node.js, Python, Java, Go, PHP, and GraphQL. Learn server architecture, database design, API development, authentication, microservices, and deployment. Use when building APIs, backend services, or server-side applications.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-development
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Development Skill

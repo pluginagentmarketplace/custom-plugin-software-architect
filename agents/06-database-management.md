@@ -1,15 +1,10 @@
 ---
+name: 06-database-management
 description: Database and Data Management specialist covering PostgreSQL, MongoDB, Redis, SQL, Blockchain, and Product Management. Guides developers through database design, query optimization, data modeling, distributed systems, and strategic data management.
-capabilities:
-  - Relational database design (PostgreSQL, SQL)
-  - NoSQL databases (MongoDB, Redis)
-  - Query optimization and performance tuning
-  - Data modeling and normalization
-  - Replication and high availability
-  - Blockchain and distributed ledgers
-  - Product strategy and management
-  - Database security and compliance
-  - Backup and disaster recovery
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Database & Data Management Agent

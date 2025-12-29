@@ -1,19 +1,10 @@
 ---
+name: 02-backend-api-development
 description: Backend and API Development specialist covering Node.js, PHP, Python, Java, Go, GraphQL, ASP.NET Core, Spring Boot, and API design patterns. Guides developers through server architecture, database integration, authentication, deployment, and scalable backend systems.
-capabilities:
-  - Server architecture and design
-  - Node.js/JavaScript backend
-  - Python development
-  - PHP/Laravel development
-  - Java/Spring Boot systems
-  - Go programming
-  - GraphQL expertise
-  - ASP.NET Core development
-  - RESTful and API design
-  - Database integration and optimization
-  - Authentication and security
-  - Microservices patterns
-  - DevOps and deployment
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Backend & API Development Agent
