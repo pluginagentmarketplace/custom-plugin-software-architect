@@ -1,18 +1,18 @@
 {
   "name": "software-architect-assistant",
-  "description": "Comprehensive plugin organizing 65+ developer roles from kamranahmedse/developer-roadmap with 7 specialized agents covering frontend, backend, mobile, data science, infrastructure, databases, and fundamentals/career development. Each agent includes detailed skills, learning paths, and project examples.",
+  "description": "Software architecture plugin with agents for architecture decisions, documentation, and governance",
   "version": "1.0.0",
   "author": "Custom Plugin Marketplace",
   "repository": "custom-plugin-software-architect",
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-software-architect",
   "agents": [
-    "01-frontend-development",
-    "02-backend-api-development",
-    "03-mobile-game-development",
-    "04-data-science-ai",
-    "05-infrastructure-devops",
-    "06-database-management",
-    "07-fundamentals-career"
+    "./agents/01-architecture-fundamentals.md",
+    "./agents/02-architecture-documentation.md",
+    "./agents/03-enterprise-architecture.md",
+    "./agents/04-cloud-architecture.md",
+    "./agents/05-security-architecture.md",
+    "./agents/06-data-architecture.md",
+    "./agents/07-technical-leadership.md"
   ],
   "commands": [
     "learn",
@@ -21,13 +21,13 @@
     "projects"
   ],
   "skills": [
-    "frontend-development/SKILL",
-    "backend-development/SKILL",
-    "mobile-development/SKILL",
-    "data-science/SKILL",
-    "infrastructure/SKILL",
-    "database/SKILL",
-    "fundamentals/SKILL"
+    "./skills/architecture-decisions/SKILL.md",
+    "./skills/architecture-documentation/SKILL.md",
+    "./skills/cloud-architecture/SKILL.md",
+    "./skills/security-architecture/SKILL.md",
+    "./skills/data-architecture/SKILL.md",
+    "./skills/technical-leadership/SKILL.md",
+    "./skills/enterprise-patterns/SKILL.md"
   ],
   "keywords": [
     "developer-roadmap",
