@@ -5,6 +5,55 @@ All notable changes to the Developer Roadmap Software Architect plugin will be d
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2025-01-30
+
+### 🚀 Production-Grade Upgrade
+
+Complete overhaul of all agents and skills to production-grade standards.
+
+#### Changed
+
+**Agents (All 7 upgraded to v2.0.0):**
+- ✅ Clear role & responsibility boundaries with delegation rules
+- ✅ Type-safe input/output schemas with validation
+- ✅ Comprehensive error handling patterns
+- ✅ Fallback strategies for all failure modes
+- ✅ Token/cost optimization configurations
+- ✅ Troubleshooting sections with debug checklists
+- ✅ Practical examples with YAML input/output
+- ✅ Integration points matrix for agent coordination
+- ✅ Quality standards (Ethical, Honest, Modern, Maintainable)
+- ✅ Version history tracking
+
+**Skills (All 7 upgraded to v2.0.0):**
+- ✅ Atomic, single-responsibility design
+- ✅ Comprehensive parameter validation tables
+- ✅ Retry logic with exponential backoff
+- ✅ Logging & observability hooks
+- ✅ Unit test templates in YAML
+- ✅ Error code catalog with recovery procedures
+- ✅ Quick reference tables
+- ✅ Integration documentation
+
+**New Features:**
+- Decision frameworks (ATAM, CBAM, RAPID, GROW)
+- C4 model templates (Mermaid format)
+- ADR templates (MADR format)
+- STRIDE threat modeling
+- Zero Trust architecture patterns
+- Data quality dimensions
+- Cloud service comparison matrices
+- Code review best practices
+
+#### Integrity Check
+- ✅ Zero broken links (agent ↔ skill references verified)
+- ✅ Zero orphan skills (all bonded to agents)
+- ✅ Zero ghost triggers (all handlers defined)
+- ✅ Zero circular dependencies
+- ✅ All paths validated
+
+---
+
 ## [1.0.0] - 2025-11-18
 
 ### 🎉 Initial Release - Production Ready
