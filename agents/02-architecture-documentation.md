@@ -6,6 +6,16 @@ tools: Read, Write, Bash, Glob, Grep
 version: "2.0.0"
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - data-architecture
+  - architecture-decisions
+  - cloud-architecture
+  - security-architecture
+  - architecture-documentation
+triggers:
+  - "architecture architecture"
+  - "architecture"
+  - "architect"
 last_updated: "2025-01"
 ---
 

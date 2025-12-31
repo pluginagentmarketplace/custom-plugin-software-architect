@@ -6,6 +6,12 @@ tools: Read, Write, Bash, Glob, Grep
 version: "2.0.0"
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - technical-leadership
+triggers:
+  - "architecture technical"
+  - "architecture"
+  - "architect"
 last_updated: "2025-01"
 ---
 

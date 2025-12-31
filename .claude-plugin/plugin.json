@@ -15,10 +15,10 @@
     "./agents/07-technical-leadership.md"
   ],
   "commands": [
-    "learn",
-    "roadmap",
-    "assess",
-    "projects"
+    "./commands/learn.md",
+    "./commands/roadmap.md",
+    "./commands/assess.md",
+    "./commands/projects.md"
   ],
   "skills": [
     "./skills/architecture-decisions/SKILL.md",
