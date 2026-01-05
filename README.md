@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-software-architect
+/plugin marketplace add pluginagentmarketplace/custom-plugin-software-architect
 
 # Step 2️⃣ Install the plugin
 /plugin install software-architect-assistant@pluginagentmarketplace-software-architect
